@@ -1,0 +1,141 @@
+/* Setup
+*********************************************************************************************/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Typography
+*********************************************************************************************/
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    transition-duration: 0.25s;
+}
+
+p a,
+strong {
+    font-weight: 700;
+}
+
+p a {
+    border-bottom: 1px solid;
+}
+
+/* Header
+*********************************************************************************************/
+
+#header {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 10;
+}
+
+/* Header Logo
+*********************************************************************************************/
+
+#header #logo {
+    background: top left no-repeat;
+    background-size: 60px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.intro #header #logo,
+.services #header #logo {
+    background-image: url('../images/logo.png');
+}
+
+.about #header #logo,
+.contact #header #logo {
+    background-image: url('../images/logo-dark.png');
+}
+
+/* Header Menu
+*********************************************************************************************/
+
+#header ul {
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+
+#header ul li,
+#header ul li a {
+    float: left;
+    position: relative;
+}
+
+#header ul li {
+    margin-left: 20px;
+}
+
+#header ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition-duration: 0.25s;
+}
+
+#header ul li.current a::before,
+#header ul li a:hover::before {
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: -6px;
+    left: 50%;
+    margin-left: -6px;
+    content: '';
+}
+
+.intro #header ul li a,
+.services #header ul li a {
+    color: #ffffff;
+}
+
+.intro #header ul li.current a::before,
+.intro #header ul li a:hover::before,
+.services #header ul li.current a::before,
+.services #header ul li a:hover::before {
+    border-color: #ffffff;
+}
+
+.about #header ul li a,
+.contact #header ul li a {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.about #header ul li.current a::before,
+.about #header ul li a:hover::before,
+.contact #header ul li.current a::before,
+.contact #header ul li a:hover::before {
+    background-color: rgba(0, 0, 0, 0.65);
+}

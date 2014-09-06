@@ -9,7 +9,7 @@ $(window).load(function() {
 /* Vertical Centering
 *********************************************************************************************/
 
-$('.centered').each(function(){
+$('.vertical_centered').each(function(){
     $container = $(this);
     $section = $container.parent();
     var margin_top = ($section.height() - $container.height())/2;
@@ -19,6 +19,12 @@ $('.centered').each(function(){
 /* Top Bounce Animation
 *********************************************************************************************/
 setInterval(function() {
-  $('.greetings').toggleClass("animated bounce");
-  //console.log('wow!');
-}, 2000);
+  $('.top_greetings').toggleClass("animated bounce");
+}, 1500);
+
+$("#top_greetings").click(function() {
+    var offset = 20;
+    $('html, body').animate({
+        scrollTop: $("#greetings").offset().top + offset
+    }, 500);
+});

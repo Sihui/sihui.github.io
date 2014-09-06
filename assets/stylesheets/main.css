@@ -118,7 +118,7 @@ p a {
 
 .top #header ul li a,
 .services #header ul li a {
-    color: #ffffff;
+    color: #000000;
 }
 
 .top #header ul li.current a::before,
@@ -140,65 +140,6 @@ p a {
     background-color: rgba(0, 0, 0, 0.65);
 }
 
-/* Sections
-*********************************************************************************************/
-
-section {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-}
-
-section.split .media {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-section.split .copy {
-    background-color: #ffffff;
-    color: rgba(0, 0, 0, 0.45);
-    width: 50%;
-    float: left;
-    margin-left: 50%;
-}
-
-section.split .copy .content {
-    float: left;
-    padding: 100px;
-}
-
-section.split .copy .content h2 {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    font-size: 48px;
-    line-height: 48px;
-    color: rgba(0, 0, 0, 0.65);
-    width: 100%;
-    padding-bottom: 33px;
-    margin-bottom: 28px;
-}
-
-section.split .copy .content p {
-    font-size: 16px;
-    line-height: 22px;
-    margin-bottom: 17px;
-}
-
-section.split .copy .content p a {
-    color: rgba(0, 0, 0, 0.45);
-}
-
-section.split .copy .content blockquote {
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 34px;
-    margin-bottom: 24px;
-}
 
 /* Top
 *********************************************************************************************/
@@ -268,7 +209,7 @@ section.split .copy .content blockquote {
 /* Top Greetings
 *********************************************************************************************/
 
-span.greetings {
+span.top_greetings {
   position: absolute;
   bottom: 40px;
   width: 122px;
@@ -276,7 +217,7 @@ span.greetings {
   margin-left: -61px;
 }
 
-span.greetings a {
+span.top_greetings a {
   float: left;
   font-weight: 700;
   color: #737373;
@@ -284,16 +225,16 @@ span.greetings a {
   text-decoration: none;
 }
 
-span.greetings a:hover {
+span.top_greetings a:hover {
   color: #39b14b;
 }
 
-span.greetings i {
+span.top_greetings i {
   display: block;
   float: right;
 }
 
-span.greetings i.arrow {
+span.top_greetings i.arrow {
   margin-top: -3px;
   margin-left: 10px;
   width: 16px;
@@ -363,3 +304,26 @@ span.greetings i.arrow {
   animation-name: bounce;
 }
 
+/* Sections
+*********************************************************************************************/
+
+section {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Greetings
+*********************************************************************************************/
+
+#greetings{
+    height:100vh;
+    background-color:#ffffff;
+}
+
+#greetings .horizontall_centered{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

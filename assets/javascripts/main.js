@@ -23,8 +23,7 @@ setInterval(function() {
 }, 1500);
 
 $("#top_greetings").click(function() {
-    var offset = 20;
     $('html, body').animate({
-        scrollTop: $("#greetings").offset().top + offset
+        scrollTop: $("#greetings").offset().top
     }, 500);
 });

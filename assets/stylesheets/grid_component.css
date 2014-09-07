@@ -44,7 +44,7 @@
 	margin-top: 0.71%;
 	text-align: left;
 	height: 0;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 .og-expander-inner {
@@ -238,6 +238,25 @@
 	left: 0;
 	right: 0;
 	z-index: 9999;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-top: 3%;
+}
+.og-work-description .col-1_3,
+.og-work-description .col-2_3,
+.og-work-description .col-3_3{
+	width:33.333333333333333333%;
+	float:left;
+	color:#ffffff;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.og-work-description .col-1_3 .head,
+.og-work-description .col-2_3 .head,
+.og-work-description .col-3_3 .head{
+	font-size:2.5em;
+	margin-bottom: 8%;
+}
+.og-work-description .col-1_3 .details,
+.og-work-description .col-2_3 .details,
+.og-work-description .col-3_3 .details{
+	font-size:2em;
 }

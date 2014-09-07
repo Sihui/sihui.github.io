@@ -394,14 +394,14 @@ var Grid = (function() {
 				if(this.$item.children( 'a' ).data('type-detail')=='dialexa'){
 
 					console.log('update preview´s content for dialexa');
-					this.$header.html('<i>It\'s a dream come true for me to ba able to work at <a href="http://www.dialexa.com" style="color:#D4AB6D;">Dialexa</a>, <br/><a href="http://seriousstartups.com/2013/05/05/dialexa-bad-ass-startup-dallas/" target="_blank">"The Most Bad Ass Startup In Dallas"</a>.</i>');
-					this.$content.append('<div class="og-dialexa-bg-image">&nbsp</div>');//og-work-description
-					this.$content.append('<div class="og-work-description">HIOUIIU BHBUI UBBUI</div>');
-					//this.$content.css('background-image','url(assets/images/office_inside.png)')// background-image: url('paper.gif');
-					//this.$content.css('background-repeat','no-repeat')// background-image: url('paper.gif');
-					//this.$content.css('background-size','cover')// background-image: url('paper.gif');
-
-				//:: auto|length|cover
+					this.$header.html('<i>It\'s a dream come true for me to ba able to work at <a target="_blank" href="http://www.dialexa.com" style="color:#353e44;">Dialexa</a>, <br/><a href="http://seriousstartups.com/2013/05/05/dialexa-bad-ass-startup-dallas/" target="_blank">"The Most Bad Ass Startup In Dallas"</a>.</i>');
+					this.$content.append('<div class="og-dialexa-bg-image">&nbsp</div>');
+					this.$content_col1 = $( '<div class="col-1_3"><div class="head">Tested a .NET Application</div><div class="details">&#149; &nbsp;Performed Unit Tests in C# using NCover, achieved above 95% totall code coverage for the modules I was responsible for.<br/><br/>&#149;&nbsp;Executed and documented manual tests.</div></div>' );
+					this.$content_col2 = $('<div class="col-2_3"><div class="head">Developed a Ruby on Rails App</div><div class="details">&#149;&nbsp;Developed both the backend and front-end from the ground up.<br /><br />&#149;&nbsp;Developed and unit tested an RESTful API used by a relative iOS app<br/><br/>&#149; &nbsp;Handled receiving, parsing, and sending data in JSON.<br /><br/>&#149;&nbsp;Developed an responsive single-page UI powered by jQuery and Ajax.<br /><br/>&#149;Used Amason S3 for storing user-uploaded files, MongoDB as database, ActionMailer for sending emails to users.</div></div>');
+					this.$content_col3 = $('<div class="col-3_3"><div class="head">Developed a iOS App</div><div class="details">&#149;&nbsp;Developed the application in Swift, Apple\'s latest programming language release in June, 2014.<br /><br />&#149;&nbsp;Used the Google Map iOS SDK.<br /><br />&#149;&nbsp;Used NSURLSession and NSJSONSerialization to communication with a RESTful API, data exchanged in JSON.<br /><br/>&#149;&nbsp;Used XCode 6 for development.<br /></div></div>');
+					this.$content_description = $('<div class="og-work-description"></div>');
+					this.$content_description.append(this.$content_col1, this.$content_col2, this.$content_col3);
+					this.$content.append(this.$content_description);
 				}
 
 			}

@@ -28,6 +28,20 @@ $("#top_greetings").click(function() {
     }, 500);
 });
 
+/* Work Show Preview
+*********************************************************************************************/
+/*$('#work_li').click(function(event){
+  event.preventDefault();
+  $('.og-expander').height('300px');
+  $('.og-expander').css('overflow','visible');
+  //$('#work').css('overflow','initial');
+})*/
 $(function() {
     Grid.init();
 });
+/*$(document).ready(function(){
+  $('.expander').simpleexpand();
+})*/
+/*$(function () {
+           $('.expander').simpleexpand();
+       });*/

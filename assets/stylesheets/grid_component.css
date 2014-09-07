@@ -1,4 +1,4 @@
-/*.og-grid {
+.og-grid {
 	list-style: none;
 	padding: 20px 0;
 	margin: 0 auto;
@@ -8,7 +8,7 @@
 
 .og-grid li {
 	display: inline-block;
-	margin: 10px 5px 0 5px;
+	/*margin: 10px 5px 0 5px;*/
 	vertical-align: top;
 	height: 250px;
 }
@@ -19,17 +19,17 @@
 	outline: none;
 	display: block;
 	position: relative;
-}*/
+}
 
 .og-grid li.og-expanded > a::after {
-	top: auto;
+	top: auto; /* 72.305%; */
 	border: solid transparent;
 	content: " ";
 	height: 0;
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #ddd;
+	border-bottom-color: #1eb79d;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
@@ -37,11 +37,11 @@
 
 .og-expander {
 	position: absolute;
-	background: #ddd;
+	background: #1eb79d;
 	top: auto;
 	left: 0;
 	width: 100%;
-	margin-top: 10px;
+	margin-top: 0.71%;
 	text-align: left;
 	height: 0;
 	overflow: hidden;

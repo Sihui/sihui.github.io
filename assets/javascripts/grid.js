@@ -342,15 +342,23 @@ var Grid = (function() {
 
 	Preview.prototype = {
 		create : function() {
+			var type =  this.$item.children( 'a' ).data('type');
+			console.log('type');
+			console.log(type);
+			if(type=='work'){
+				this.$header = $('<div class="og-work-header"></div>');
+				this.$content = $('<div class="og-work-content"></div>');
+				this.$details = $( '<div class="og-details"></div>' ).append( this.$header,this.$content);
+			}
 			// create Preview structure:
 			this.$title = $( '<h3></h3>' );
 			this.$description = $( '<p></p>' );
 			this.$href = $( '<a href="#">Visit website</a>' );
-			this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
+			//this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
 			this.$loading = $( '<div class="og-loading"></div>' );
 			this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading );
 			this.$closePreview = $( '<span class="og-close"></span>' );
-			this.$previewInner = $( '<div class="og-expander-inner"></div>' ).append( this.$closePreview, this.$fullimage, this.$details );
+			this.$previewInner = $( '<div class="og-expander-inner"></div>' ).append(this.$closePreview,this.$details);
 			this.$previewEl = $( '<div class="og-expander"></div>' ).append( this.$previewInner );
 			// append preview element to the item
 			this.$item.append( this.getEl() );
@@ -358,8 +366,7 @@ var Grid = (function() {
 			if( support ) {
 				this.setTransition();
 			}
-			console.log('here');
-			console.log( this.$item.children( 'a' ).data('type'));
+
 		},
 		update : function( $item ) {
 
@@ -380,6 +387,24 @@ var Grid = (function() {
 			current = this.$item.index();
 
 			// update preview´s content
+
+
+			if(this.$item.children( 'a' ).data('type')=='work'){
+
+				if(this.$item.children( 'a' ).data('type-detail')=='dialexa'){
+
+					console.log('update preview´s content for dialexa');
+					this.$header.html('It was a dream come true <a href="#">J</a>');
+					this.$content.append('<div class="og-dialexa-bg-image">&nbsp</div>');//og-work-description
+					this.$content.append('<div class="og-work-description">HIOUIIU BHBUI UBBUI</div>');
+					//this.$content.css('background-image','url(assets/images/office_inside.png)')// background-image: url('paper.gif');
+					//this.$content.css('background-repeat','no-repeat')// background-image: url('paper.gif');
+					//this.$content.css('background-size','cover')// background-image: url('paper.gif');
+
+				//:: auto|length|cover
+				}
+
+			}
 			var $itemEl = this.$item.children( 'a' ),
 				eldata = {
 					href : $itemEl.attr( 'href' ),
@@ -394,8 +419,8 @@ var Grid = (function() {
 			var self = this;
 
 			// remove the current image in the preview
-			if( typeof self.$largeImg != 'undefined' ) {
-				self.$largeImg.remove();
+			if( typeof self.$bgimg != 'undefined' ) {
+				self.$bgimg.remove();
 			}
 
 			// preload large image and add it to the preview

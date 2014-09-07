@@ -322,16 +322,26 @@ var Grid = (function() {
 		// expand preview overlay
 		preview.open();
 		$('#work').height(2*$('#work').height());
+		$('#work .content').height($('#work').height()*0.6);
 		console.log('section height');
 		console.log($('#work').height());
 	}
 
 	function hidePreview() {
+
 		current = -1;
 		var preview = $.data( this, 'preview' );
 		preview.close();
 		$.removeData( this, 'preview' );
 		$('#work').height('100vh');
+		$('#work .content').height($('#work').height() * 0.73);
+		$('.og-expanded').removeClass('og-expanded');
+		//$('#work').height('100vh');
+		/*$( "#work" ).animate({
+		    height: '100vh',
+		  }, 1, function() {
+		    // Animation complete.
+		  });*/
 	}
 
 	// the preview obj / overlay

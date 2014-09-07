@@ -164,7 +164,7 @@ $.fn.imagesLoaded = function( callback ) {
 var Grid = (function() {
 
 		// list of items
-	var $grid = $( '#og-grid' ),
+	var $grid = $( '#work-og-grid' ),
 		// the items
 		$items = $grid.children( 'li' ),
 		// current expanded item's index
@@ -271,7 +271,7 @@ var Grid = (function() {
 	}
 
 	function initItemsEvents( $items ) {
-		$items.on( 'click', 'span.og-close', function() {
+		$items.on( 'click', 'span.work-og-close', function() {
 			hidePreview();
 			return false;
 		} ).children( 'a' ).on( 'click', function(e) {
@@ -289,7 +289,7 @@ var Grid = (function() {
 	}
 
 	function showPreview( $item ) {
-		$('.og-expanded').removeClass('og-expanded');
+		$('.work-og-expanded').removeClass('work-og-expanded');
 		var preview = $.data( this, 'preview' ),
 			// item´s offset top
 			position = $item.data( 'offsetTop' );
@@ -335,7 +335,7 @@ var Grid = (function() {
 		$.removeData( this, 'preview' );
 		$('#work').height('100vh');
 		$('#work .content').height($('#work').height() * 0.73);
-		$('.og-expanded').removeClass('og-expanded');
+		$('.work-og-expanded').removeClass('work-og-expanded');
 		//$('#work').height('100vh');
 		/*$( "#work" ).animate({
 		    height: '100vh',
@@ -358,12 +358,12 @@ var Grid = (function() {
 			this.$title = $( '<h3></h3>' );
 			this.$description = $( '<p></p>' );
 			this.$href = $( '<a href="#">Visit website</a>' );
-			this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
-			this.$loading = $( '<div class="og-loading"></div>' );
-			this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading );
-			this.$closePreview = $( '<span class="og-close"></span>' );
-			this.$previewInner = $( '<div class="og-expander-inner"></div>' ).append( this.$closePreview, this.$fullimage, this.$details );
-			this.$previewEl = $( '<div class="og-expander"></div>' ).append( this.$previewInner );
+			this.$details = $( '<div class="work-og-details"></div>' ).append( this.$title, this.$description, this.$href );
+			this.$loading = $( '<div class="work-og-loading"></div>' );
+			this.$fullimage = $( '<div class="work-og-fullimg"></div>' ).append( this.$loading );
+			this.$closePreview = $( '<span class="work-og-close"></span>' );
+			this.$previewInner = $( '<div class="work-og-expander-inner"></div>' ).append( this.$closePreview, this.$fullimage, this.$details );
+			this.$previewEl = $( '<div class="work-og-expander"></div>' ).append( this.$previewInner );
 			// append preview element to the item
 			this.$item.append( this.getEl() );
 			// set the transitions for the preview and the item
@@ -377,11 +377,11 @@ var Grid = (function() {
 				this.$item = $item;
 			}
 
-			// if already expanded remove class "og-expanded" from current item and add it to new item
+			// if already expanded remove class "work-og-expanded" from current item and add it to new item
 			if( current !== -1 ) {
 				var $currentItem = $items.eq( current );
-				$currentItem.removeClass( 'og-expanded' );
-				this.$item.addClass( 'og-expanded' );
+				$currentItem.removeClass( 'work-og-expanded' );
+				this.$item.addClass( 'work-og-expanded' );
 				// position the preview correctly
 				this.positionPreview();
 			}
@@ -442,7 +442,7 @@ var Grid = (function() {
 					if( support ) {
 						$( this ).off( transEndEventName );
 					}
-					self.$item.removeClass( 'og-expanded' );
+					self.$item.removeClass( 'work-og-expanded' );
 					self.$previewEl.remove();
 				};
 
@@ -486,7 +486,7 @@ var Grid = (function() {
 					if( support ) {
 						self.$item.off( transEndEventName );
 					}
-					self.$item.addClass( 'og-expanded' );
+					self.$item.addClass( 'work-og-expanded' );
 				};
 
 			this.calcHeight();

@@ -357,19 +357,17 @@ section {
 }
 #work .content{
     height:79.3%;
-    background-color: #ffffff; /* green #1EB79D*/
+    background-color: #ffffff;
 }
 #work .content li{
     float:left;
     width:49.95%;
-    /*width:41.95%;*/
     height:100%;
     display: block;
 }
 
 #work .content_col1_title{
     padding: 10% 5% 12.2% 5%;
-    /*height:40%;*/
     background-color:#ffffff;
 }
 

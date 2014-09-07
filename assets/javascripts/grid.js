@@ -381,6 +381,8 @@ var Grid = (function() {
 				this.$item.addClass( 'og-expanded' );
 				// position the preview correctly
 				this.positionPreview();
+				this.$header.empty();
+				this.$content.empty();
 			}
 
 			// update current value
@@ -392,15 +394,20 @@ var Grid = (function() {
 			if(this.$item.children( 'a' ).data('type')=='work'){
 
 				if(this.$item.children( 'a' ).data('type-detail')=='dialexa'){
-
 					console.log('update preview´s content for dialexa');
-					this.$header.html('<i>It\'s a dream come true for me to ba able to work at <a target="_blank" href="http://www.dialexa.com" style="color:#353e44;">Dialexa</a>, <br/><a href="http://seriousstartups.com/2013/05/05/dialexa-bad-ass-startup-dallas/" target="_blank">"The Most Bad Ass Startup In Dallas"</a>.</i>');
+					this.$header.html('<i>It was a dream come true for me to ba able to work at <a target="_blank" href="http://www.dialexa.com" style="color:#353e44;">Dialexa</a>, <br/><a style="text-decoration:underline;" href="http://seriousstartups.com/2013/05/05/dialexa-bad-ass-startup-dallas/" target="_blank">"The Most Bad Ass Startup In Dallas"</a>.</i>');
 					this.$content.append('<div class="og-dialexa-bg-image">&nbsp</div>');
-					this.$content_col1 = $( '<div class="col-1_3"><div class="head">Tested a .NET Application</div><div class="details">&#149; &nbsp;Performed Unit Tests in C# using NCover, achieved above 95% totall code coverage for the modules I was responsible for.<br/><br/>&#149;&nbsp;Executed and documented manual tests.</div></div>' );
+					this.$content_col1 = $('<div class="col-1_3"><div class="head">Tested a .NET Application</div><div class="details">&#149; &nbsp;Performed Unit Tests in C# using NCover, achieved above 95% totall code coverage for the modules I was responsible for.<br/><br/>&#149;&nbsp;Executed and documented manual tests.</div></div>' );
 					this.$content_col2 = $('<div class="col-2_3"><div class="head">Developed a Ruby on Rails App</div><div class="details">&#149;&nbsp;Developed both the backend and front-end from the ground up.<br /><br />&#149;&nbsp;Developed and unit tested an RESTful API used by a relative iOS app<br/><br/>&#149; &nbsp;Handled receiving, parsing, and sending data in JSON.<br /><br/>&#149;&nbsp;Developed an responsive single-page UI powered by jQuery and Ajax.<br /><br/>&#149;Used Amason S3 for storing user-uploaded files, MongoDB as database, ActionMailer for sending emails to users.</div></div>');
 					this.$content_col3 = $('<div class="col-3_3"><div class="head">Developed a iOS App</div><div class="details">&#149;&nbsp;Developed the application in Swift, Apple\'s latest programming language release in June, 2014.<br /><br />&#149;&nbsp;Used the Google Map iOS SDK.<br /><br />&#149;&nbsp;Used NSURLSession and NSJSONSerialization to communication with a RESTful API, data exchanged in JSON.<br /><br/>&#149;&nbsp;Used XCode 6 for development.<br /></div></div>');
 					this.$content_description = $('<div class="og-work-description"></div>');
 					this.$content_description.append(this.$content_col1, this.$content_col2, this.$content_col3);
+					this.$content.append(this.$content_description);
+				}else if(this.$item.children( 'a' ).data('type-detail')=='mavs'){
+					console.log('update preview´s content for mavs');//
+					this.$header.html('<i>Working with <a target="_blank" href="http://www.utdallas.edu/~rmili/" style="color:#222c3b;">Dr. Rym Zalila-Wenkstern</a> teaches me what it means to be a mission-driven researcher.</i>');
+					this.$content.append('<div class="og-mavs-bg-image">&nbsp;</div>');
+					this.$content_description = $('<div class="og-work-description"><div class="og-mavs-work-description-1">&#149; &nbsp;Studied Agent-Oriented Programming and Multi-Agent System;<br/><br/>&#149; &nbsp;Tested and Debugged MATISSE;<br/><br/>&#149; &nbsp;Developed a Vehicle-to-Vehicle communication mechanism for MATISSE;<br/><br/>&#149; &nbsp;Participated in the process of publishing a paper for an IEEE Intelligent Transportation System Conference;<br/><br/></div><div class="og-mavs-work-description-2">In Fall\'14, I will participate in the <a href="http://mavs.utdallas.edu/agent-based-smart-campus/" target="_blank id="mavs_sc" style="color:#AE4E3B; font-style:italic;">Comet Smart Campus Project</a>.<br/><div class="boxed-href"><a href="http://mavs.utdallas.edu/" target="_blank">Visit the MAVS Lab</a></div></div></div>');
 					this.$content.append(this.$content_description);
 				}
 

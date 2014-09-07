@@ -394,7 +394,7 @@ var Grid = (function() {
 				if(this.$item.children( 'a' ).data('type-detail')=='dialexa'){
 
 					console.log('update preview´s content for dialexa');
-					this.$header.html('It was a dream come true <a href="#">J</a>');
+					this.$header.html('<i>It\'s a Dream Come True for me to ba able to work at Dialexa, <a href="http://seriousstartups.com/2013/05/05/dialexa-bad-ass-startup-dallas/" target="_blank">"The Most Bad Ass Startup In Dallas"</a>.</i>');
 					this.$content.append('<div class="og-dialexa-bg-image">&nbsp</div>');//og-work-description
 					this.$content.append('<div class="og-work-description">HIOUIIU BHBUI UBBUI</div>');
 					//this.$content.css('background-image','url(assets/images/office_inside.png)')// background-image: url('paper.gif');

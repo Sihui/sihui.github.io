@@ -18,9 +18,9 @@ $('.vertical_centered').each(function(){
 
 /* Top Bounce Animation
 *********************************************************************************************/
-setInterval(function() {
+/*setInterval(function() {
   $('.top_greetings').toggleClass("animated bounce");
-}, 1500);
+}, 1500);*/
 
 $("#top_greetings").click(function() {
     $('html, body').animate({

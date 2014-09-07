@@ -1,6 +1,8 @@
 /* Setup
 *********************************************************************************************/
-
+html {
+  font-size: 16px;
+}
 html,
 body {
     width: 100%;
@@ -9,7 +11,7 @@ body {
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
+    font-size: 62.5%; /* 1em = 32px */
 }
 
 *, *:before, *:after {
@@ -99,7 +101,8 @@ p a {
 
 #header ul li a {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    /*font-weight: 700;*/
+    font-size:2em;
     transition-duration: 0.25s;
 }
 
@@ -118,7 +121,7 @@ p a {
 
 .top #header ul li a,
 .services #header ul li a {
-    color: #000000;
+    color: #ce7354;
 }
 
 .top #header ul li.current a::before,
@@ -326,4 +329,154 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Work
+*********************************************************************************************/
+
+#work{
+    height:100vh;
+    background-color: #1EB79D;
+}
+#work .horizontall_centered{
+    width:14%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#work .title{
+    font-size: 7em;
+    color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    height: 15%;
+}
+#work .content{
+    height:69%;
+    background-color: #ffffff; /* green #1EB79D*/
+}
+#work .content li{
+    float:left;
+    width:49.95%;
+    height:100%;
+    display: block;
+}
+
+#work .content_col1_title{
+    padding: 10% 5% 10% 5%;
+    height:40%;
+    background-color:#ffffff;
+}
+
+#work .content_col1_image{
+    height:51%;
+}
+
+#work ul li .content_col1_title .summary_name{
+    font-size: 2.5em;
+    width: 65.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:#1EB79D;
+    padding-top:4%;
+}
+
+#work ul li .content_col1_title .summary_time{
+    font-size: 1.5em;
+    width: 25.1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:#1EB79D;
+    padding-top:1.5%;
+}
+
+#work .content_col1_description{
+    height:60%;
+    color: #1EB79D;
+    font-size: 1.5em;
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height:1.3em;
+    margin-top:12%;
+}
+
+#work .content_col2_title{
+    padding: 10% 5% 10% 5%;
+    height:40%;
+    background-color:#ffffff;
+}
+
+#work .content_col2_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    margin-top: -5.5%;
+    width: 100%;
+}
+
+#work ul li .content_col2_title .summary_name{
+    font-size: 2.5em;
+    width: 62.15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:#1EB79D;
+    margin-top:-2%;
+}
+
+#work ul li .content_col2_title .summary_time{
+    font-size: 1.5em;
+    width: 29.3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:#1EB79D;
+    padding-top:1.5%;
+}
+
+#work .content_col2_description{
+    height:60%;
+    color: #1EB79D;
+    font-size: 1.5em;
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height:1.3em;
+    margin-top:12%;
+}
+
+#work .ver_divider{
+    float: left;
+    width: 0.1%;
+    height: 94%;
+    background-color: #1EB79D;
+    margin-top: 1%;
+}
+#work .ver_divider_top{
+    background-color:#1EB79D;
+    height: 38.3%;
+    width:1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#work .ver_divider_bottom{
+    background-color:#ffffff;
+    height:100%;
+    width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#work .footer{
+    height:10%;
+    background-color:#1EB79D;
 }

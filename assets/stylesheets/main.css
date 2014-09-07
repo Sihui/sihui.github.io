@@ -333,7 +333,9 @@ section {
 
 /* Work
 *********************************************************************************************/
-
+section #work{
+    overflow: auto !important;
+}
 #work{
     height:100vh;
     background-color: #1EB79D;
@@ -393,7 +395,6 @@ section {
 }
 
 #work .content_col1_description{
-    height:60%;
     color: #1EB79D;
     font-size: 1.5em;
     display: block;
@@ -441,7 +442,6 @@ section {
 }
 
 #work .content_col2_description{
-    height:60%;
     color: #1EB79D;
     font-size: 1.5em;
     display: block;

@@ -27,3 +27,7 @@ $("#top_greetings").click(function() {
         scrollTop: $("#greetings").offset().top
     }, 500);
 });
+
+$(function() {
+    Grid.init();
+});

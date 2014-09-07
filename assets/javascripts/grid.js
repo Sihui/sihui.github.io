@@ -321,10 +321,8 @@ var Grid = (function() {
 		preview = $.data( this, 'preview', new Preview( $item ) );
 		// expand preview overlay
 		preview.open();
-		$('#work').height(2*$('#work').height());
-		$('#work .content').height($('#work').height()*0.6);
-		console.log('section height');
-		console.log($('#work').height());
+		//$('#work').height(2*$('#work').height());
+		//$('#work .content').height($('#work').height()*0.6);
 	}
 
 	function hidePreview() {
@@ -333,8 +331,8 @@ var Grid = (function() {
 		var preview = $.data( this, 'preview' );
 		preview.close();
 		$.removeData( this, 'preview' );
-		$('#work').height('100vh');
-		$('#work .content').height($('#work').height() * 0.73);
+		//$('#work').height('100vh');
+		//$('#work .content').height($('#work').height() * 0.73);
 		$('.work-og-expanded').removeClass('work-og-expanded');
 		//$('#work').height('100vh');
 		/*$( "#work" ).animate({

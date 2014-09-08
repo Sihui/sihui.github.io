@@ -20,6 +20,20 @@ body {
     box-sizing: border-box;
 }
 
+/* Clearfix
+*/
+.group:before,
+.group:after {
+content: "";
+display: table;
+}
+.group:after {
+clear: both;
+}
+.group {
+zoom: 1; /* IE6&7 */
+}
+
 /* Typography
 *********************************************************************************************/
 
@@ -379,13 +393,12 @@ section {
 }
 
 #work .content_col1_image{
-    /*height:25%;*/
+    height:25%;
     width: 100%;
 }
 
 #work ul li .content_col1_title .summary_name{
     font-size: 2.5em;
-    width: 65.5%;
     width: 78.5%;
     display: block;
     margin-left: auto;
@@ -459,7 +472,7 @@ section {
     margin-top: 7%;
 }
 
-#work .ver_divider{
+/*#work .ver_divider{
     float: left;
     width: 0.1%;
     height: 94%;
@@ -481,6 +494,10 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}*/
+#work .content_wrap{
+    background-color:#ffffff;
+    border-bottom:3px #1EB79D solid;
 }
 #work .footer{
     height:10%;

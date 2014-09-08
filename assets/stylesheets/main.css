@@ -54,7 +54,7 @@ p a {
     top: 0;
     left: 0;
     overflow: hidden;
-    z-index: 10;
+    z-index: 999999;
 }
 
 /* Header Logo
@@ -337,7 +337,7 @@ section {
 #work{
     min-height:100vh;
     background-color: #ffffff;
-    position: relative;
+    /*position: relative;*/
 
 }
 

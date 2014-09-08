@@ -389,8 +389,6 @@ var Grid = (function() {
 			current = this.$item.index();
 
 			// update preview´s content
-
-
 			if(this.$item.children( 'a' ).data('type')=='work'){
 
 				if(this.$item.children( 'a' ).data('type-detail')=='dialexa'){
@@ -410,7 +408,6 @@ var Grid = (function() {
 					this.$content_description = $('<div class="og-work-description"><div class="og-mavs-work-description-1">&#149; &nbsp;Studied Agent-Oriented Programming and Multi-Agent System;<br/><br/>&#149; &nbsp;Tested and Debugged MATISSE;<br/><br/>&#149; &nbsp;Developed a Vehicle-to-Vehicle communication mechanism for MATISSE;<br/><br/>&#149; &nbsp;Participated in the process of publishing a paper for an IEEE Intelligent Transportation System Conference;<br/><br/></div><div class="og-mavs-work-description-2">In Fall\'14, I will participate in the <a href="http://mavs.utdallas.edu/agent-based-smart-campus/" target="_blank id="mavs_sc" style="color:#AE4E3B; font-style:italic;">Comet Smart Campus Project</a>.<br/><div class="boxed-href"><a href="http://mavs.utdallas.edu/" target="_blank">Visit the MAVS Lab</a></div></div></div>');
 					this.$content.append(this.$content_description);
 				}
-
 			}
 			var $itemEl = this.$item.children( 'a' ),
 				eldata = {

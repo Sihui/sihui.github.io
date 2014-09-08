@@ -48,7 +48,7 @@ p a {
 
 #header {
     width: 100%;
-    height: 100px;
+    height: 120px;
     line-height: 100px;
     position: fixed;
     top: 0;
@@ -64,7 +64,7 @@ p a {
     background: top left no-repeat;
     background-size: 60px;
     width: 60px;
-    height: 60px;
+    height: 120px;
     position: absolute;
     top: 20px;
     left: 40px;
@@ -108,7 +108,7 @@ p a {
 
 #header ul li.current a::before,
 #header ul li a:hover::before {
-    background-color: #ffffff;
+    background-color: #ce7354;
     border-radius: 50%;
     position: absolute;
     width: 12px;
@@ -357,7 +357,7 @@ section {
 #work .title{
     font-size: 7em;
     color: #ffffff;
-    padding-top: 3%;
+    padding-top: 7%;
     margin-bottom: 2%;
     height: 15%;
 }
@@ -506,10 +506,10 @@ section {
     margin-right: auto;
 }
 #projects .title{
+    padding-top: 7%;
+    margin-bottom: 2%;
     font-size: 7em;
     color: #1EB79D;
-    padding-top: 5%;
-    padding-bottom: 5%;
     height: 15%;
     max-height: 150px !important;
 }

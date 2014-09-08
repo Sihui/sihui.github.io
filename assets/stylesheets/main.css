@@ -345,6 +345,7 @@ section {
     background-color: #1EB79D;
     width:100%;
     padding-bottom:30px;
+    max-height: 150px !important;
 }
 
 #work .horizontall_centered{
@@ -507,9 +508,10 @@ section {
 #projects .title{
     font-size: 7em;
     color: #1EB79D;
-    padding-top: 7%;
+    padding-top: 5%;
     padding-bottom: 5%;
     height: 15%;
+    max-height: 150px !important;
 }
 #projects .content{
     height:79.3%;

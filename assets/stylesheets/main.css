@@ -352,7 +352,9 @@ section {
 #work{
     min-height:100vh;
     background-color: #ffffff;
-    border-bottom: 15px #1EB79D solid;
+    border-bottom-color: #1EB79D;
+    border-bottom-style: solid;
+    border-bottom-width: 20px;
 }
 
 #work .title_wrap{
@@ -360,6 +362,12 @@ section {
     width:100%;
     padding-bottom:30px;
     max-height: 150px !important;
+}
+
+#work .content_wrap{
+    border-top: #1EB79D;
+    border-top-width: 20px;
+    border-top-style: solid;
 }
 
 #work .horizontall_centered{
@@ -511,6 +519,7 @@ section {
 #projects{
     min-height:100vh;
     background-color: #1EB79D;
+    padding-bottom: 20px;
 }
 #projects .content_wrap{
 }
@@ -576,6 +585,7 @@ section {
 #activities{
     min-height:100vh;
     background-color: #ffffff;
+    padding-bottom: 20px;
 }
 #activities .content_wrap{
 }
@@ -602,7 +612,6 @@ section {
     height: 350px;
 }
 #activities .content_col{
-
 
 }
 #activities .content_col .content_image{

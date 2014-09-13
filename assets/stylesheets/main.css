@@ -518,7 +518,8 @@ section {
 *********************************************************************************************/
 #projects{
     min-height:100vh;
-    background-color: #1EB79D;
+    background-image: linear-gradient(-45deg, #11bb99,#1EB79D);
+    background-image: -webkit-linear-gradient(135deg, #11bb99,#1EB79D);
     padding-bottom: 20px;
 }
 #projects .content_wrap{
@@ -545,7 +546,6 @@ section {
     margin-left:auto;
     margin-right:auto;
     float:left;
-    background-color: #1EB79D;
     padding-top: 25px;
 }
 #projects .content_col{

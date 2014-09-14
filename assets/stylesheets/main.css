@@ -41,7 +41,6 @@ zoom: 1; /* IE6&7 */
 h1, h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 a {
@@ -412,9 +411,9 @@ section {
 #work .title{
     font-size: 7em;
     color: #ffffff;
-    padding-top: 7%;
+    padding-top: 25px;
     margin-bottom: 2%;
-    height: 15%;
+    height: 50px;
 }
 #work .content{
     height:79.3%;

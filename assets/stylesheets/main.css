@@ -21,8 +21,10 @@ body {
 }
 a { color: inherit; }
 .bold {font-weight: bold;}
+
 /* Clearfix
-*/
+*********************************************************************************************/
+
 .group:before,
 .group:after {
 content: "";
@@ -156,10 +158,9 @@ strong {
     background-color: #b4b4b4;
 }
 
-/*.top #header ul li a,
-.services #header ul li a {
-    color: #ce7354;
-}*/
+.top #header ul li a {
+    height: 50px;
+}
 .top #header ul li.skills a {
     color: #ff823c;
 }

@@ -33,3 +33,12 @@ $("#top_greetings").click(function() {
 $(function() {
     Grid.init();
 });
+
+/*$(document).ready(function() {
+    $("#nav").ferroMenu({
+            position    : "left-top",
+            delay       : 50,
+            rotation    : 720,
+            margin      : 20
+        });
+});*/

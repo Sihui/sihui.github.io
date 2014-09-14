@@ -914,3 +914,39 @@ section {
     font-size:2em;
   }
 }
+@media (max-width: 1150px) {
+  #skills .skills_img{
+    margin-right:10px;
+  }
+}
+@media (max-width: 970px) {
+  #skills .skills_img{
+    margin-top:30px;
+  }
+}
+@media (max-width: 900px) {
+  #skills .skills_img{
+    margin-top:60px;
+  }
+}
+@media (max-width: 780px) {
+  #skills .skills_img{
+    margin-top:85px;
+  }
+}
+@media (max-width: 950px) {
+  #greetings .content{
+    font-size:1.3em;
+    padding-top:80px;
+  }
+}
+@media (max-width: 822px) {
+  #greetings .content{
+    font-size:1.2em;
+  }
+}
+@media (max-width: 760px) {
+  #greetings .content{
+    font-size:1.1em;
+  }
+}

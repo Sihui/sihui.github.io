@@ -39,6 +39,7 @@ $(document).ready(function() {
             position    : "left-top",
             delay       : 50,
             rotation    : 720,
-            margin      : 20
+            margin      : 20,
+            drag        : false
         });
 });

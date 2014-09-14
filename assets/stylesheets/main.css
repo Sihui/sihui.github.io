@@ -177,6 +177,10 @@ strong {
     color: #b4b4b4;
 }
 
+#ferromenu-controller-0{
+    visibility: hidden;
+}
+
 #nav .icon-sh{
     background-image:url(../images/logo.png);;
 }
@@ -479,9 +483,9 @@ section {
 #work .title{
     font-size: 7em;
     color: #ffffff;
-    padding-top: 25px;
+    padding-top: 55px;
     margin-bottom: 2%;
-    height: 50px;
+    height: 80px;
 }
 #work .content{
     height:79.3%;
@@ -633,7 +637,7 @@ section {
     margin-right: auto;
 }
 #projects .title{
-    padding-top: 50px;
+    padding-top: 60px;
     margin-bottom: 2%;
     font-size: 7em;
     color: #ffffff;
@@ -699,7 +703,7 @@ section {
     margin-right: auto;
 }
 #activities .title{
-    padding-top: 50px;
+    padding-top: 60px;
     margin-bottom: 2%;
     font-size: 7em;
     color: #1EB79D;
@@ -854,3 +858,14 @@ section {
 }
 
 /* Localized */
+
+/*Responsive
+*/
+@media (max-width: 670px) {
+  #header {
+    display: none;
+  }
+  #ferromenu-controller-0{
+      visibility: visible;
+  }
+}

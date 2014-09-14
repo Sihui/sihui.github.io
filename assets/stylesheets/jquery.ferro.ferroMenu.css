@@ -1,23 +1,24 @@
 * {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  
-} 
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
 .ferromenu-controller{
 	position:fixed;
 	display:block;
-	width:60px;
-	height:60px;
+	width:40px;
+	height:40px;
 	/*margin:10px;*/
 	text-align:center;
 	-webkit-border-radius:50%;
 	border-radius:50%;
-	background: #45484d;
+	/*background: #45484d;*/
+	background: #FFD2AA;
     color:#f2f2f2;
     font-family: 'Lato', sans-serif;
     font-size:24px;
     line-height:60px;
     vertical-align:middle;
-    text-decoration:none; 
+    text-decoration:none;
 }
 
 .ferromenu-controller .label{
@@ -26,6 +27,7 @@
 	-ms-transition : all 0.2s linear;
 	-o-transition : all 0.2s linear;
 	transition : all 0.2s linear;
+	margin-top: -12px;
 }
 
 .ferromenu-controller.open .label{
@@ -44,7 +46,7 @@
 #nav li,#nav2 li{
 	color:#f2f2f2;
 	text-align:center;
-	
+
 }
 
 #nav li a,#nav2 li a{
@@ -55,7 +57,7 @@
 	height:40px;
 	-webkit-border-radius:50%;
 	border-radius:50%;
-	background: #45484d;
+	/*background: #45484d;*/
 	line-height:40px;
 	display:block;
 }

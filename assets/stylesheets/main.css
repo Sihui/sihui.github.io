@@ -177,6 +177,33 @@ strong {
     color: #b4b4b4;
 }
 
+#nav .icon-sh{
+    background-image:url(../images/logo.png);;
+}
+
+#nav .menu-icon-top{
+    color: #137565;
+}
+
+#nav .menu-icon-skills{
+    color: #ff823c;
+}
+#nav .menu-icon-work{
+    color: #3c96c8;
+}
+
+#nav .menu-icon-projects{
+    color: #f03c96;
+}
+
+#nav .menu-icon-activities{
+    color: #78e66e;
+}
+
+#nav .menu-icon-resume{
+    color: #b4b4b4;
+}
+
 .top #header ul li.current a::before,
 .top #header ul li a:hover::before,
 .services #header ul li.current a::before,

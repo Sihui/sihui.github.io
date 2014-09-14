@@ -122,7 +122,6 @@ strong {
 
 #header ul li.current a::before,
 #header ul li a:hover::before {
-    background-color: #ce7354;
     border-radius: 50%;
     position: absolute;
     width: 12px;
@@ -133,9 +132,48 @@ strong {
     content: '';
 }
 
-.top #header ul li a,
+#header ul li.skills.current a::before,
+#header ul li.skills a:hover::before {
+    background-color: #ff823c;
+}
+#header ul li.work.current a::before,
+#header ul li.work a:hover::before {
+    background-color: #3c96c8;
+}
+
+#header ul li.projects.current a::before,
+#header ul li.projects a:hover::before {
+    background-color: #f03c96;
+}
+
+#header ul li.activities.current a::before,
+#header ul li.activities a:hover::before {
+    background-color: #78e66e;
+}
+
+#header ul li.resume.current a::before,
+#header ul li.resume a:hover::before {
+    background-color: #b4b4b4;
+}
+
+/*.top #header ul li a,
 .services #header ul li a {
     color: #ce7354;
+}*/
+.top #header ul li.skills a {
+    color: #ff823c;
+}
+.top #header ul li.work a {
+    color: #3c96c8;
+}
+.top #header ul li.projects a {
+    color: #f03c96;
+}
+.top #header ul li.activities a {
+    color: #78e66e;
+}
+.top #header ul li.resume a {
+    color: #b4b4b4;
 }
 
 .top #header ul li.current a::before,

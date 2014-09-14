@@ -392,6 +392,11 @@ section {
     max-height: 150px !important;
 }
 
+#work .icon-work{
+    font-size: 1em;
+    margin-right: 30px;
+}
+
 #work .content_wrap{
     border-top: #1EB79D;
     border-top-width: 20px;
@@ -399,7 +404,7 @@ section {
 }
 
 #work .horizontall_centered{
-    width:14%;
+    width: 20.7%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -550,16 +555,18 @@ section {
     background-image: -webkit-linear-gradient(135deg, #11bb99,#1EB79D);
     padding-bottom: 20px;
 }
-#projects .content_wrap{
+#projects .icon-projects{
+    margin-right: 30px;
+    font-size: 1em;
 }
 #projects .horizontall_centered{
-    width:14%;
+    width:27.5%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 #projects .title{
-    padding-top: 7%;
+    padding-top: 50px;
     margin-bottom: 2%;
     font-size: 7em;
     color: #ffffff;
@@ -615,16 +622,17 @@ section {
     background-color: #ffffff;
     padding-bottom: 20px;
 }
-#activities .content_wrap{
+#activities .icon-activities{
+    margin-right:30px;
 }
 #activities .horizontall_centered{
-    width:14%;
+    width: 28.4%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 #activities .title{
-    padding-top: 7%;
+    padding-top: 50px;
     margin-bottom: 2%;
     font-size: 7em;
     color: #1EB79D;

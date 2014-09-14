@@ -337,15 +337,34 @@ section {
 #greetings{
     height:100vh;
     background-color:#ffffff;
+    width:70%;
+    float:left;
 }
 
 #greetings .horizontall_centered{
-    width: 50%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Skills
+*********************************************************************************************/
+
+#skills{
+    height:100vh;
+    width:30%;
+    background-color:#ffffff;
+}
+#skills .padding{
+    height:100px;
+}
+#skills .skills_img{
+    background-image: url(../images/skills.png);
+    background-size: contain;
+    height: 80%;
+    background-repeat: no-repeat;
+}
 /* Work
 *********************************************************************************************/
 

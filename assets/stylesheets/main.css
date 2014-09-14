@@ -224,19 +224,37 @@ strong {
     color: #ffffff;
 }
 
-/* Top Greetings
+/* Top Icons
+*********************************************************************************************/
+#top span.icons{
+    font-size: 40px;
+    position: absolute;
+    bottom: 100px;
+    color: #ce7354;
+    left: 50%;
+    margin-left: -45px;
+}
+a.icon-github:hover,
+a.icon-linkedin:hover{
+  color: #1EB79D !important;
+}
+/* Top Icon-down
 *********************************************************************************************/
 
 a.icon-down:hover {
-  color: #1EB79D !important;
+  color: #1EB79D;
 }
 
 .icon-down{
     font-size: 4em;
     position: absolute;
-    margin-left:46.5%;
-    bottom:10px;
-    color:#ce7354;
+    margin-left: 46.5%;
+    bottom: 10px;
+    color: #ce7354;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
 }
 
 /* Top Bounce Animation from http://daneden.github.io/animate.css/

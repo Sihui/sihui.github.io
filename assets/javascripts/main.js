@@ -34,11 +34,11 @@ $(function() {
     Grid.init();
 });
 
-/*$(document).ready(function() {
+$(document).ready(function() {
     $("#nav").ferroMenu({
             position    : "left-top",
             delay       : 50,
             rotation    : 720,
             margin      : 20
         });
-});*/
+});

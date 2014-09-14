@@ -195,7 +195,9 @@ strong {
 .contact #header ul li a:hover::before {
     background-color: rgba(0, 0, 0, 0.65);
 }
-
+li .desktop{
+    position:fixed !important;
+}
 
 /* Top
 *********************************************************************************************/

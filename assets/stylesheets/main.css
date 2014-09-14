@@ -383,14 +383,14 @@ section {
 }
 
 #greetings .content{
-    color:#137565;
+    color:#878787;
     font-size: 1.5em;
     text-align:center;
     line-height: 1.4em;
 }
 
 #greetings .link{
-    color:#1EB79D;
+    color:#646464;
     text-decoration: none;
 }
 

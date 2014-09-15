@@ -43,4 +43,7 @@ $(document).ready(function() {
             drag        : false,
             radius      : 100
         });
+    $( window ).resize(function() {
+      $.fn.ferroMenu.refreshMenu();
+    });
 });

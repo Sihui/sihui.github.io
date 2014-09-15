@@ -34,7 +34,7 @@ $("#top_greetings").click(function() {
     Grid.init();
 });*/
 
-/*$(document).ready(function() {
+$(document).ready(function() {
     $("#nav").ferroMenu({
             position    : "left-top",
             delay       : 50,
@@ -47,8 +47,8 @@ $("#top_greetings").click(function() {
       console.log("window-resized");
       //$.fn.ferroMenu.refreshMenu();
     });
-});*/
-$(document).ready(function() {
+});
+/*$(document).ready(function() {
   console.log("updated");
   var nav = $("#nav");
   nav.ferroMenu();
@@ -56,4 +56,4 @@ $(document).ready(function() {
   controller.insertAfter(nav);
   $.fn.ferroMenu.refreshMenu();
   $.fn.ferroMenu.toggleMenu("#nav");
-});
+});*/

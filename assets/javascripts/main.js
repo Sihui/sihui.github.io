@@ -44,6 +44,7 @@ $(document).ready(function() {
             radius      : 100
         });
     $( window ).resize(function() {
+      console.log("window resized");
       $.fn.ferroMenu.refreshMenu();
     });
 });

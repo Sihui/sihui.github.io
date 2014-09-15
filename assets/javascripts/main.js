@@ -35,7 +35,7 @@ $("#top_greetings").click(function() {
 });*/
 
 $(document).ready(function() {
-  console.log("new2");
+  console.log("new3");
     $("#nav").ferroMenu({
             position    : "left-top",
             delay       : 50,
@@ -44,11 +44,11 @@ $(document).ready(function() {
             drag        : false,
             radius      : 100
         });
-    $( window ).resize(function() {
+    /*$( window ).resize(function() {
       $('.desktop').css("top","15px");
       $('.mobile').css("top","15px");
       //$.fn.ferroMenu.refreshMenu();
-    });
+    });*/
 });
 /*$(document).ready(function() {
   console.log("updated");

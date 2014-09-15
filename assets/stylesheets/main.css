@@ -866,7 +866,8 @@ section {
 *********************************************************************************************/
 
 @media (max-width: 670px) {
-  #header {
+  #logo,
+  #navigation {
     display: none;
   }
   #ferromenu-controller-0{
@@ -880,6 +881,9 @@ section {
   }
   #activities .title{
     padding-top: 20px;
+  }
+  #header{
+    width:0;
   }
 }
 

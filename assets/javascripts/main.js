@@ -40,6 +40,7 @@ $(document).ready(function() {
             delay       : 50,
             rotation    : 720,
             margin      : 20,
-            drag        : false
+            drag        : false,
+            radius      : 100
         });
 });

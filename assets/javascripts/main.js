@@ -30,11 +30,11 @@ $("#top_greetings").click(function() {
 
 /* Work Show Preview
 *********************************************************************************************/
-$(function() {
+/*$(function() {
     Grid.init();
-});
+});*/
 
-$(document).ready(function() {
+/*$(document).ready(function() {
     $("#nav").ferroMenu({
             position    : "left-top",
             delay       : 50,
@@ -46,13 +46,14 @@ $(document).ready(function() {
     $( window ).resize(function() {
       console.log("window-resized");
       //$.fn.ferroMenu.refreshMenu();
-      $("#nav").ferroMenu({
-              position    : "left-top",
-              delay       : 50,
-              rotation    : 720,
-              margin      : 20,
-              drag        : false,
-              radius      : 100
-          });
     });
+});*/
+$(document).ready(function() {
+  console.log("updated");
+  var nav = $("#nav");
+  nav.ferroMenu();
+  var controller = $("*[data-ferromenuitem='#nav']");
+  controller.insertAfter(nav);
+  $.fn.ferroMenu.refreshMenu();
+  $.fn.ferroMenu.toggleMenu("#nav");
 });

@@ -44,7 +44,15 @@ $(document).ready(function() {
             radius      : 100
         });
     $( window ).resize(function() {
-      console.log("window resized");
-      $.fn.ferroMenu.refreshMenu();
+      console.log("window-resized");
+      //$.fn.ferroMenu.refreshMenu();
+      $("#nav").ferroMenu({
+              position    : "left-top",
+              delay       : 50,
+              rotation    : 720,
+              margin      : 20,
+              drag        : false,
+              radius      : 100
+          });
     });
 });

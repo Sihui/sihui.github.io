@@ -4,8 +4,8 @@ module.exports = function (grunt) {
             multiple_files: {
                   expand: true,
                   flatten: true,
-                  src: 'assets/stylesheets/*.css', // -> src/css/file1.css, src/css/file2.css
-                  dest: 'assets/built-stylesheets/' // -> dest/css/file1.css, dest/css/file2.css
+                  src: 'assets/stylesheets/*.css',
+                  dest: 'assets/built-stylesheets/'
                 }
         },
         watch: {
@@ -18,3 +18,27 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-autoprefixer');
     grunt.loadNpmTasks('grunt-contrib-watch');
 };
+/*use built file to replace original file*/
+//module.exports = function (grunt) {
+//    grunt.initConfig({
+//        autoprefixer: {
+//
+//               dist: {
+//                  files: [{
+//                    expand: true,
+//                    cwd: 'assets/stylesheets/',
+//                    src: '{,*/}*.css',
+//                    dest: 'assets/stylesheets/'
+//                  }]
+//                }
+//        },
+//       watch: {
+//            styles: {
+//                files: ['assets/stylesheets/{,*/}*.css'],
+//                tasks: ['autoprefixer']
+//            }
+//        }
+//    });
+//    grunt.loadNpmTasks('grunt-autoprefixer');
+//    grunt.loadNpmTasks('grunt-contrib-watch');
+//};

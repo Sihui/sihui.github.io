@@ -22,6 +22,18 @@ body {
 a { color: inherit; }
 .bold {font-weight: bold;}
 
+.parent_of_vertical_centered{
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.vertical_centered{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /* Clearfix
 *********************************************************************************************/
 
@@ -258,6 +270,8 @@ li .desktop{
     background-color: rgba(56, 47, 40, 0.5);
 }
 
+
+
 /* Top Text
 *********************************************************************************************/
 
@@ -300,7 +314,7 @@ li .desktop{
 #top span.icons{
     font-size: 40px;
     position: absolute;
-    bottom: 100px;
+    bottom: 15%;
     color: #ce7354;
     left: 50%;
     margin-left: -45px;
@@ -1335,11 +1349,63 @@ section {
     margin-left: 18%;
   }
 }
+
 @media (max-width: 460px) {
   #greetings .content{
     font-size:1em;
   }
   #skills .skills_img{
     margin-left: 14%;
+  }
+}
+
+/* Rsp Vertical - Top
+*********************************************************************************************/
+@media (max-height: 395px) {
+  #top h1{
+  }
+}
+/* Rsp Vertical - Skills
+*********************************************************************************************/
+@media (max-height: 525px) and (min-width: 700.1px) {
+  #skills .skills_img{
+    margin-top: -5%;
+  }
+}
+@media (max-height: 464px) and (min-width: 700.1px) {
+  #skills .skills_img{
+    margin-top: -6%;
+  }
+}
+@media (max-height: 411px) and (min-width: 700.1px) {
+  #skills .skills_img{
+    margin-top: -8%;
+  }
+}
+@media (max-height: 372px) and (min-width: 700.1px) {
+  #skills .skills_img{
+    margin-top: -11%;
+  }
+}
+@media (max-height: 365px) and (min-width: 700.1px) {
+  #skills .skills_img{
+    margin-top: -15%;
+  }
+}
+@media (max-height: 316px) and (min-width: 700.1px) {
+  #skills .skills_img{
+    margin-top: -17%;
+  }
+}
+
+@media (max-height: 320px) and (max-width: 700px) {
+  #skills .skills_img{
+    margin-top: -4%;
+  }
+}
+
+@media (max-height: 220px) and (max-width: 700px) {
+  #skills .skills_img{
+    margin-top: -6%;
   }
 }

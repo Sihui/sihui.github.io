@@ -215,16 +215,17 @@
 .og-work-header{
 	color: white;
 	font-size: 3em;
-	width: 70%;
+	width: 87%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 2%;
-	margin-top:-2px;
+	margin-top: 8px;
 	text-align: center;
+	font-family: ArchitectsDaughter;
 }
 .og-work-header i{
-	font-style: italic;
+	/*font-style: italic;*/
 }
 .og-work-header a{
 	color:#ffffff;

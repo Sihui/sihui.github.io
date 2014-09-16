@@ -30,12 +30,15 @@ $(window).load(function() {
 
 /* Work Show Preview
 *********************************************************************************************/
-/*$(function() {
-    Grid.init();
-});*/
+
 
 $(document).ready(function() {
   console.log("new3");
+  if ($(window).width() >= 1280){
+    $(function() {
+        Grid.init();
+    });
+  }
     $("#nav").ferroMenu({
             position    : "left-top",
             delay       : 50,
@@ -44,6 +47,14 @@ $(document).ready(function() {
             drag        : false,
             radius      : 100
         });
+
+    $(window).resize(function(){
+      if ($(window).width() >= 1280){
+        $(function() {
+            Grid.init();
+        });
+      }
+    });
     /*$( window ).resize(function() {
       $('.desktop').css("top","15px");
       $('.mobile').css("top","15px");

@@ -22,7 +22,7 @@ body {
 a { color: inherit; }
 .bold {font-weight: bold;}
 
-/*.parent_of_vertical_centered{
+.parent_of_vertical_centered{
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -32,7 +32,7 @@ a { color: inherit; }
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-}*/
+}
 
 @font-face {
     font-family: 'ArchitectsDaughter';

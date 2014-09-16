@@ -9,12 +9,12 @@ $(window).load(function() {
 /* Vertical Centering
 *********************************************************************************************/
 
-$('.vertical_centered').each(function(){
+/*$('.vertical_centered').each(function(){
     $container = $(this);
     $section = $container.parent();
     var margin_top = ($section.height() - $container.height())/2;
     $container.css('margin-top',margin_top);
-});
+});*/
 
 /* Top Bounce Animation
 *********************************************************************************************/

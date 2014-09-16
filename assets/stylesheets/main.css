@@ -690,7 +690,7 @@ section {
     height:180px;
     overflow: hidden;
     vertical-align: middle;
-    display: table-cell;
+    display: block;
     margin: auto;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -755,7 +755,7 @@ section {
     height:180px;
     overflow: hidden;
     vertical-align: middle;
-    display: table-cell;
+    display: block;
     margin: auto;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;

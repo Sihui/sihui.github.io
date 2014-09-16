@@ -64,6 +64,10 @@ clear: both;
 zoom: 1; /* IE6&7 */
 }
 
+.equal-height{
+    padding-bottom: 500em;
+    margin-bottom: -500em;
+}
 /* Typography
 *********************************************************************************************/
 

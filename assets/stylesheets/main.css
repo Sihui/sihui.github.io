@@ -776,7 +776,18 @@ section {
     border-radius: 50%;
     border: 3px #1EB79D solid;
 }
-
+.swe_icon{
+    margin-left: -3px;
+    margin-top: -3px;
+}
+.gk_icon{
+    margin-left: -3.21px;
+    margin-top: -3.5px;
+}
+.dei_icon{
+    margin-left: -3px;
+    margin-top: -3px;
+}
 #activities .content_col .content_image{
     width:180px;
     height:180px;

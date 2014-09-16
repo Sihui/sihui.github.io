@@ -33,7 +33,7 @@ $(window).load(function() {
 
 
 $(document).ready(function() {
-  console.log("new");
+  console.log("new1");
   if ($(window).width() >= 1280){
     $(function() {
         Grid.init();
@@ -55,6 +55,13 @@ $(document).ready(function() {
         });
       }
     });
+    /* Equal heigh for float li*/
+    var heights = $("#projects li").map(function () { return $(this).height(); }).get();
+    var maxHeight = Math.max.apply(null, heights);
+    $("#projects li").height(maxHeight);
+    var act_heights = $("#activities li").map(function () { return $(this).height(); }).get();
+    var act_maxHeight = Math.max.apply(null, act_heights);
+    $("#activities li").height(act_maxHeight);
     /*$( window ).resize(function() {
       $('.desktop').css("top","15px");
       $('.mobile').css("top","15px");

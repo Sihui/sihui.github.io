@@ -1365,6 +1365,39 @@ section {
   #top h1{
   }
 }
+
+/* Rsp Vertical - Greetings
+*********************************************************************************************/
+@media (max-height: 316px) and (min-width: 1100px) {
+  #greetings .content{
+    font-size:1.3em;
+  }
+}
+@media (max-height: 316px) and (min-width: 975px) {
+  #greetings .content{
+    font-size:1.1em;
+  }
+}
+@media (max-height: 316px) and (min-width: 865px) {
+  #greetings .content{
+    font-size:1em;
+  }
+}
+@media (max-height: 330px) and (max-width: 700px) {
+  #greetings .content{
+    font-size:1.2em;
+  }
+}
+@media (max-height: 300px) and (max-width: 700px) {
+  #greetings .content{
+    font-size:1.1em;
+  }
+}
+@media (max-height: 250px) and (max-width: 700px) {
+  #greetings .content{
+    font-size:0.9em;
+  }
+}
 /* Rsp Vertical - Skills
 *********************************************************************************************/
 @media (max-height: 525px) and (min-width: 700.1px) {

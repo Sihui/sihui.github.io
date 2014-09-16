@@ -1238,13 +1238,22 @@ section {
   }
 }
 
-@media (max-width: 235px) and (min-height: 384.1px) {
+@media (max-width: 280px) and (min-height: 384.1px) {
   #top h1{
     font-size: 3em;
     margin-bottom: -30px;
   }
   #top p{
     font-size: 1.5em;
+  }
+}
+@media (max-width: 200px) and (min-height: 384.1px) {
+  #top h1{
+    font-size: 2em;
+    margin-bottom: -30px;
+  }
+  #top p{
+    font-size: 1.4em;
   }
 }
 

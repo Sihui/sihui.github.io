@@ -22,11 +22,11 @@ $(window).load(function() {
   $('.top_greetings').toggleClass("animated bounce");
 }, 1500);*/
 
-$("#top_greetings").click(function() {
+/*$("#top_greetings").click(function() {
     $('html, body').animate({
         scrollTop: $("#greetings").offset().top
     }, 500);
-});
+});*/
 
 /* Work Show Preview
 *********************************************************************************************/

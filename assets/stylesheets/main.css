@@ -1326,8 +1326,7 @@ section {
   }
 }
 
-/*iPhone 2G-4S in portrait*/
-
+/*
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
     #top h1{
       font-size: 1.5em;
@@ -1337,6 +1336,7 @@ section {
       font-size: 0.6em;
     }
 }
+*/
 
 /* Rsp - Skills & Greetings
 *********************************************************************************************/

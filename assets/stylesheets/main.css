@@ -34,6 +34,21 @@ a { color: inherit; }
     transform: translateY(-50%);
 }
 
+@font-face {
+    font-family: 'ArchitectsDaughter';
+    src: url('../fonts/ArchitectsDaughter.ttf');
+}
+.ad-font{
+    font-family: 'ArchitectsDaughter';
+}
+
+@font-face {
+    font-family: 'Amethysta-Regular';
+    src: url('../fonts/Amethysta-Regular.ttf');
+}
+.ar-font{
+    font-family: 'Amethysta-Regular';
+}
 /* Clearfix
 *********************************************************************************************/
 
@@ -1192,7 +1207,7 @@ section {
 /* Rsp - Top Title
 *********************************************************************************************/
 
-@media (max-width: 670px) {
+@media (max-width: 670px) and (min-height: 384.1px) {
   #top h1{
     font-size:9em;
     padding-bottom:0px;
@@ -1202,7 +1217,7 @@ section {
   }
 }
 
-@media (max-width: 655px) {
+@media (max-width: 655px) and (min-height: 384.1px) {
   #top h1{
     font-size:8em;
   }
@@ -1211,7 +1226,7 @@ section {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) and (min-height: 384.1px) {
   #top h1{
     font-size:7em;
     padding-bottom:0px;
@@ -1221,7 +1236,7 @@ section {
   }
 }
 
-@media (max-width: 519px) {
+@media (max-width: 519px) and (min-height: 384.1px) {
   #top h1{
     font-size: 6em;
     border-bottom: 0px;
@@ -1232,7 +1247,7 @@ section {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 400px) and (min-height: 384.1px) {
   #top h1{
     font-size: 5em;
     margin-bottom: -25px;
@@ -1242,7 +1257,7 @@ section {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 320px) and (min-height: 384.1px) {
   #top h1{
     font-size: 4em;
     margin-bottom: -30px;
@@ -1252,7 +1267,7 @@ section {
   }
 }
 
-@media (max-width: 235px) {
+@media (max-width: 235px) and (min-height: 384.1px) {
   #top h1{
     font-size: 3em;
     margin-bottom: -30px;
@@ -1361,10 +1376,57 @@ section {
 
 /* Rsp Vertical - Top
 *********************************************************************************************/
-@media (max-height: 395px) {
+@media (max-height: 384px) and (min-width: 620.001px) {
   #top h1{
   }
 }
+
+@media (max-height: 365px){ /*and (max-width: 540px) {*/
+  #top h1{
+    font-size:6em;
+    border-bottom:0;
+    margin-bottom:0;
+    line-height: 50%;
+  }
+  #top h1::after{
+    display:none;
+  }
+  #top p {
+  font-size: 1.5em;
+  }
+}
+
+@media (max-height: 290px) { /*and (max-width: 540px) {*/
+  #top h1{
+    font-size:5em;
+    /*line-height:55px;*/
+  }
+  #top p {
+  font-size: 1.3em;
+  }
+}
+
+@media (max-height: 250px) { /*and (max-width: 540px) {*/
+  #top h1{
+    font-size:4em;
+    /*line-height: 39px;*/
+  }
+  #top p {
+  font-size: 1.1em;
+  }
+  #top span.icons{
+    font-size: 30px;
+    bottom: 20%;
+    margin-left: -40px;
+  }
+  #top .icon-github{
+    padding-right: 10px;
+  }
+  #top .icon-down{
+    font-size: 30px;
+  }
+}
+
 
 /* Rsp Vertical - Greetings
 *********************************************************************************************/

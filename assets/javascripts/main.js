@@ -45,7 +45,8 @@ $(document).ready(function() {
             rotation    : 720,
             margin      : 20,
             drag        : false,
-            radius      : 130
+            radius      : 130,
+            opened      : true
         });
 
     $(window).resize(function(){
@@ -62,18 +63,4 @@ $(document).ready(function() {
     var act_heights = $("#activities li").map(function () { return $(this).height(); }).get();
     var act_maxHeight = Math.max.apply(null, act_heights);
     $("#activities li").height(act_maxHeight);
-    /*$( window ).resize(function() {
-      $('.desktop').css("top","15px");
-      $('.mobile').css("top","15px");
-      //$.fn.ferroMenu.refreshMenu();
-    });*/
 });
-/*$(document).ready(function() {
-  console.log("updated");
-  var nav = $("#nav");
-  nav.ferroMenu();
-  var controller = $("*[data-ferromenuitem='#nav']");
-  controller.insertAfter(nav);
-  $.fn.ferroMenu.refreshMenu();
-  $.fn.ferroMenu.toggleMenu("#nav");
-});*/

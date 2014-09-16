@@ -33,7 +33,7 @@ $(window).load(function() {
 
 
 $(document).ready(function() {
-  console.log("new3");
+  console.log("new");
   if ($(window).width() >= 1280){
     $(function() {
         Grid.init();
@@ -45,7 +45,7 @@ $(document).ready(function() {
             rotation    : 720,
             margin      : 20,
             drag        : false,
-            radius      : 100
+            radius      : 150
         });
 
     $(window).resize(function(){

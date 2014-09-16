@@ -696,7 +696,8 @@ section {
 }
 #projects .content_col{
 }
-#projects .content_col .content_image{
+
+.pro_wrap_image{
     width:180px;
     height:180px;
     overflow: hidden;
@@ -704,6 +705,10 @@ section {
     display: block;
     margin: auto;
     border-radius: 50%
+}
+#projects .content_col .content_image{
+    width:180px;
+    height:180px;
 }
 #projects .content_col .summary_name{
     font-size:3em;
@@ -759,7 +764,8 @@ section {
 #activities .content_col{
 
 }
-#activities .content_col .content_image{
+
+.act_wrap_image{
     width:180px;
     height:180px;
     overflow: hidden;
@@ -768,6 +774,11 @@ section {
     margin: auto;
     border-radius: 50%;
     border: 3px #1EB79D solid;
+}
+
+#activities .content_col .content_image{
+    width:180px;
+    height:180px;
 }
 #activities .content_col .summary_name{
     font-size:3em;

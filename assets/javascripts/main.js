@@ -33,7 +33,7 @@ $(window).load(function() {
 
 
 $(document).ready(function() {
-  console.log("new1");
+  console.log("new");
   if ($(window).width() >= 1280){
     $(function() {
         Grid.init();

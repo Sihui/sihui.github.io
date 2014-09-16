@@ -1266,6 +1266,16 @@ section {
   }
 }
 
+@media (max-width: 150px){
+  #top h1{
+    font-size: 1.5em;
+    margin-bottom: -45px;
+  }
+  #top p{
+    font-size: 0.6em;
+  }
+}
+
 /* Rsp - Skills & Greetings
 *********************************************************************************************/
 

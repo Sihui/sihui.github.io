@@ -467,14 +467,23 @@ section {
     width:35%;
     background-color:#ffffff;
 }
-#skills .padding{
+/*#skills .padding{
     height:100px;
-}
-#skills .skills_img{
-    background-image: url(../images/skills.png);
+}*/
+#skills .skills_image{
+    /*background-image: url(../images/skills.png);
     background-size: contain;
     height: 80%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+
+    position: absolute;
+        min-height:100%;
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+        background: url(../images/skills.png) no-repeat center center;
+        background-size: contain;
 }
 /* Work
 *********************************************************************************************/
@@ -1260,7 +1269,7 @@ section {
 /* Rsp - Skills & Greetings
 *********************************************************************************************/
 
-@media (max-width: 1150px) {
+/*@media (max-width: 1150px) {
   #skills .skills_img{
     margin-right:10px;
   }
@@ -1296,6 +1305,8 @@ section {
     font-size:1.1em;
   }
 }
+*/
+
 @media (max-width: 700px) {
   #greetings{
     width:auto;
@@ -1313,6 +1324,7 @@ section {
     margin-left: 27%;
   }
 }
+
 @media (max-width: 575px) {
   #greetings .content{
     font-size:1.3em;

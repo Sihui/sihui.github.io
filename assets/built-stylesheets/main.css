@@ -278,12 +278,12 @@ li .desktop{
 }
 
 #top::before {
-    background: url('../images/intro.png') center center no-repeat;
+    background: url('../images/intro.jpg') center center no-repeat;
     background-size: cover;
 }
 
 #top::after {
-    background-color: rgba(56, 47, 40, 0.5);
+    /*background-color: rgba(56, 47, 40, 0.1);*/
 }
 
 

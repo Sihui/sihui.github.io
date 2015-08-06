@@ -1,9 +1,10 @@
 /* Greetings
 *********************************************************************************************/
+@import 'variables', 'basics';
 
 #greetings {
   height: 100vh;
-  background-color: #ffffff;
+  background-color: $greetings_bg_color;
   width: 65%;
   float: left;
   .horizontall_centered {

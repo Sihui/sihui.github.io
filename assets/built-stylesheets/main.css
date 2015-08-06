@@ -158,7 +158,7 @@ p a, strong {
     #header ul li.work.current a::before, #header ul li.work a:hover::before {
       background-color: #F694C1; }
     #header ul li.projects.current a::before, #header ul li.projects a:hover::before {
-      background-color: #96616B; }
+      background-color: #6D9DC5; }
     #header ul li.activities.current a::before, #header ul li.activities a:hover::before {
       background-color: #F76F8E; }
     #header ul li.resume.current a::before, #header ul li.resume a:hover::before {
@@ -171,7 +171,7 @@ p a, strong {
 .top #header ul li.work a {
   color: #F694C1; }
 .top #header ul li.projects a {
-  color: #96616B; }
+  color: #6D9DC5; }
 .top #header ul li.activities a {
   color: #F76F8E; }
 .top #header ul li.resume a {
@@ -348,9 +348,22 @@ a.icon-down:hover {
 
 /* Greetings
 *********************************************************************************************/
+.horizontall_centered {
+  width: 20.7%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.title {
+  font-size: 7em;
+  color: #D3F8E2;
+  padding-top: 55px;
+  margin-bottom: 2%;
+  height: 80px; }
+
 #greetings {
   height: 100vh;
-  background-color: #ffffff;
+  background-color: #EFF7F6;
   width: 65%;
   float: left; }
   #greetings .horizontall_centered {
@@ -369,10 +382,23 @@ a.icon-down:hover {
 
 /* Skills
 *********************************************************************************************/
+.horizontall_centered {
+  width: 20.7%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.title {
+  font-size: 7em;
+  color: #D3F8E2;
+  padding-top: 55px;
+  margin-bottom: 2%;
+  height: 80px; }
+
 #skills {
   height: 100vh;
   width: 35%;
-  background-color: #ffffff; }
+  background-color: #EFF7F6; }
   #skills .skills_image {
     /*background-image: url(../images/skills.png);
     background-size: contain;
@@ -644,15 +670,18 @@ a.icon-down:hover {
   text-align: center; }
 #projects .content_col .summary_time {
   font-size: 1.5em;
-  color: #18927E;
+  color: #6D9DC5;
   font-style: italic;
   text-align: center; }
 #projects .content_col .project_content_description {
   font-size: 1.5em;
-  color: #137565;
+  color: #607baf;
   padding: 10px 5px 0 5px;
   line-height: 1.3em;
-  text-align: center; }
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
 
 /* Activites
 *********************************************************************************************/

@@ -398,10 +398,14 @@ a.icon-down:hover {
       width: 50%;
       height: 50%;
       float: left;
-      background: purple; }
-      #work .content_wrap .content_row1_col1_title .content_image {
-        width: 100%; }
-      #work .content_wrap .content_row1_col1_title .summary_name {
+      background: #ffffff;
+      padding: 60px; }
+      #work .content_wrap .content_row1_col1_title .content_sf_image {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto; }
+      #work .content_wrap .content_row1_col1_title .content_text .summary_name {
+        text-align: center;
         font-size: 2.5em;
         width: 74.15%;
         display: block;
@@ -409,7 +413,8 @@ a.icon-down:hover {
         margin-right: auto;
         color: #1EB79D;
         margin-top: 2%; }
-      #work .content_wrap .content_row1_col1_title .summary_time {
+      #work .content_wrap .content_row1_col1_title .content_text .summary_time {
+        text-align: center;
         font-size: 1.5em;
         width: 35.3%;
         display: block;
@@ -417,7 +422,7 @@ a.icon-down:hover {
         margin-right: auto;
         color: #1EB79D;
         padding-top: 1.5%; }
-      #work .content_wrap .content_row1_col1_title .content_description {
+      #work .content_wrap .content_row1_col1_title .content_text .content_description {
         color: #1EB79D;
         font-size: 1.5em;
         display: block;
@@ -425,24 +430,28 @@ a.icon-down:hover {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        line-height: 1.3em;
-        margin-top: 7%; }
+        line-height: 1.3em; }
     #work .content_wrap .content_row1_col2_title {
       width: 50%;
       height: 50%;
       float: left;
-      background: red; }
-      #work .content_wrap .content_row1_col2_title .content_image {
-        width: 100%; }
+      background: #ffffff;
+      padding: 60px; }
+      #work .content_wrap .content_row1_col2_title .content_sf_image {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto; }
       #work .content_wrap .content_row1_col2_title .summary_name {
-        font-size: 2.5em;
+        text-align: center;
+        font-size: 2em;
         width: 74.15%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         color: #1EB79D;
-        margin-top: 2%; }
+        margin-top: 1%; }
       #work .content_wrap .content_row1_col2_title .summary_time {
+        text-align: center;
         font-size: 1.5em;
         width: 35.3%;
         display: block;
@@ -459,15 +468,19 @@ a.icon-down:hover {
         margin-right: auto;
         text-align: center;
         line-height: 1.3em;
-        margin-top: 7%; }
+        margin-top: 2%; }
     #work .content_wrap .content_row2_col1_title {
       width: 50%;
       height: 50%;
       float: left;
-      background: blue; }
+      background: #ffffff;
+      padding: 60px; }
       #work .content_wrap .content_row2_col1_title .content_image {
-        width: 100%; }
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto; }
       #work .content_wrap .content_row2_col1_title .summary_name {
+        text-align: center;
         font-size: 2.5em;
         width: 74.15%;
         display: block;
@@ -476,6 +489,7 @@ a.icon-down:hover {
         color: #1EB79D;
         margin-top: 2%; }
       #work .content_wrap .content_row2_col1_title .summary_time {
+        text-align: center;
         font-size: 1.5em;
         width: 35.3%;
         display: block;
@@ -491,16 +505,19 @@ a.icon-down:hover {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        line-height: 1.3em;
-        margin-top: 7%; }
+        line-height: 1.3em; }
     #work .content_wrap .content_row2_col2_title {
       width: 50%;
       height: 50%;
       float: left;
-      background: green; }
+      background: #ffffff;
+      padding: 60px; }
       #work .content_wrap .content_row2_col2_title .content_image {
-        width: 100%; }
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto; }
       #work .content_wrap .content_row2_col2_title .summary_name {
+        text-align: center;
         font-size: 2.5em;
         width: 74.15%;
         display: block;
@@ -509,6 +526,7 @@ a.icon-down:hover {
         color: #1EB79D;
         margin-top: 2%; }
       #work .content_wrap .content_row2_col2_title .summary_time {
+        text-align: center;
         font-size: 1.5em;
         width: 35.3%;
         display: block;
@@ -524,8 +542,7 @@ a.icon-down:hover {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        line-height: 1.3em;
-        margin-top: 7%; }
+        line-height: 1.3em; }
   #work .content_row1_col1_title:hover {
     background-color: yellow; }
   #work .content_row1_col2_title:hover {

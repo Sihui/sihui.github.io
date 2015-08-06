@@ -69,9 +69,9 @@ $(document).ready(function() {
     var work_title_height = $("#work .title_wrap").height();
     var work_content_height = work_section_height - work_title_height;
     //var content_sf_image_height = work_content_height * 0.5 * 0.5;
-    var content_text_height = $("content_row1_col1_title").height() - $("content_sf_image").height();
+    //var content_text_height = work_section_height - content_sf_image_height;
     $(".content_wrap").css("height", work_content_height);
-    //$(".content_row1_col1_title").css("height", content_wrap * 0.3);
-    $(".content_text").css("height", content_text_height);
+    //$(".content_sf_image").css("height", content_sf_image_height);
+    //$(".content_text").css("height", content_text_height);
 
 });

@@ -1,6 +1,8 @@
 @import 'variables', 'basics';
 /* Work
 *********************************************************************************************/
+$work_icon_padding:60px;
+
 #work {
   min-height: 100vh;
   background-color: $white;
@@ -24,62 +26,74 @@
     padding: 2%;
     .content_row1_col1_title {
       width:50%;
-      height: 50%;
+      height:50%;
       float: left;
-      background: purple;
+      background: $white;
+      padding:$work_icon_padding;
 
-      .content_image {
+      .content_sf_image {
         width: 100%;
-      }
-      .summary_name {
-        font-size: 2.5em;
-        width: 74.15%;
-        display: block;
         margin-left: auto;
         margin-right: auto;
-        color: #1EB79D;
-        margin-top: 2%;
       }
-      .summary_time {
-        font-size: 1.5em;
-        width: 35.3%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        color: #1EB79D;
-        padding-top: 1.5%;
+      .content_text{
+        .summary_name {
+          text-align: center;
+          font-size: 2.5em;
+          width: 74.15%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          color: #1EB79D;
+          margin-top: 2%;
+        }
+        .summary_time {
+          text-align: center;
+          font-size: 1.5em;
+          width: 35.3%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          color: #1EB79D;
+          padding-top: 1.5%;
+        }
+        .content_description {
+          color: #1EB79D;
+          font-size: 1.5em;
+          display: block;
+          width: 77%;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          line-height: 1.3em;
+        }
       }
-      .content_description {
-        color: #1EB79D;
-        font-size: 1.5em;
-        display: block;
-        width: 77%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        line-height: 1.3em;
-        margin-top: 7%;
-      }
+
     }
 
     .content_row1_col2_title {
       width:50%;
       height: 50%;
       float: left;
-      background: red;
-      .content_image {
+      background: $white;
+      padding:$work_icon_padding;
+      .content_sf_image {
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
       }
       .summary_name {
-        font-size: 2.5em;
+        text-align: center;
+        font-size: 2em;
         width: 74.15%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         color: #1EB79D;
-        margin-top: 2%;
+        margin-top: 1%;
       }
       .summary_time {
+        text-align: center;
         font-size: 1.5em;
         width: 35.3%;
         display: block;
@@ -97,7 +111,7 @@
         margin-right: auto;
         text-align: center;
         line-height: 1.3em;
-        margin-top: 7%;
+        margin-top: 2%;
       }
     }
 
@@ -105,11 +119,16 @@
       width:50%;
       height: 50%;
       float: left;
-      background: blue;
+      background: $white;
+      padding:$work_icon_padding;
+
       .content_image {
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
       }
       .summary_name {
+        text-align: center;
         font-size: 2.5em;
         width: 74.15%;
         display: block;
@@ -119,6 +138,7 @@
         margin-top: 2%;
       }
       .summary_time {
+        text-align: center;
         font-size: 1.5em;
         width: 35.3%;
         display: block;
@@ -136,18 +156,21 @@
         margin-right: auto;
         text-align: center;
         line-height: 1.3em;
-        margin-top: 7%;
       }
     }
     .content_row2_col2_title {
       width:50%;
       height: 50%;
       float: left;
-      background: green;
+      background: $white;
+      padding:$work_icon_padding;
       .content_image {
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
       }
       .summary_name {
+        text-align: center;
         font-size: 2.5em;
         width: 74.15%;
         display: block;
@@ -157,6 +180,7 @@
         margin-top: 2%;
       }
       .summary_time {
+        text-align: center;
         font-size: 1.5em;
         width: 35.3%;
         display: block;
@@ -174,7 +198,6 @@
         margin-right: auto;
         text-align: center;
         line-height: 1.3em;
-        margin-top: 7%;
       }
     }
   }

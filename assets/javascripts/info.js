@@ -1,9 +1,6 @@
 var info = {
   Name:'Sihui Huang',
-  Contact:{
-    Email:'sihuih@gmail.com',
-    LinkedIn:'https://www.linkedin.com/in/sihuihuang'
-  },
+  Email:'sihuih@gmail',
   Education:{
     Major: 'CS',
     School: 'The University of Texas at Dallas',

@@ -6,11 +6,11 @@ $work_icon_padding:60px;
 #work {
   min-height: 100vh;
   background-color: $white;
-  border-bottom-color: #1EB79D;
+  /*border-bottom-color: #1EB79D;
   border-bottom-style: solid;
-  border-bottom-width: 20px;
+  border-bottom-width: 20px;*/
   .title_wrap {
-    background-color: #1EB79D;
+    background-color: $section_header_bg_color;
     width: 100%;
     padding-bottom: 30px;
     max-height: 150px !important;
@@ -20,7 +20,7 @@ $work_icon_padding:60px;
     margin-right: 30px;
   }
   .content_wrap {
-    border-top: #1EB79D;
+    border-top: $section_header_bg_color;
     border-top-width: 20px;
     border-top-style: solid;
     padding: 2%;

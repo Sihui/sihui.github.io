@@ -1,3 +1,6 @@
+@import 'variables', 'basics';
+
+
 /* Header
 *********************************************************************************************/
 
@@ -63,27 +66,27 @@
     }
     &.skills {
       &.current a::before, a:hover::before {
-        background-color: #ff823c;
+        background-color: $skill_color;
       }
     }
     &.work {
       &.current a::before, a:hover::before {
-        background-color: #3c96c8;
+        background-color: $work_color;
       }
     }
     &.projects {
       &.current a::before, a:hover::before {
-        background-color: #f03c96;
+        background-color: $projects_color;
       }
     }
     &.activities {
       &.current a::before, a:hover::before {
-        background-color: #78e66e;
+        background-color: $activities_color;
       }
     }
     &.resume {
       &.current a::before, a:hover::before {
-        background-color: #FF7C72;
+        background-color: $resume_color;
       }
     }
   }
@@ -94,19 +97,19 @@
     height: 50px;
   }
   &.skills a {
-    color: #ff823c;
+    color: $skill_color;
   }
   &.work a {
-    color: #3c96c8;
+    color: $work_color;
   }
   &.projects a {
-    color: #f03c96;
+    color: $projects_color;
   }
   &.activities a {
-    color: #78e66e;
+    color: $activities_color;
   }
   &.resume a {
-    color: #FF7C72;
+    color: $resume_color;
   }
 }
 

@@ -1,10 +1,11 @@
 /* Projects
 *********************************************************************************************/
+@import 'variables', 'basics';
 
 #projects {
   min-height: 100vh;
-  background-image: linear-gradient(-45deg, #11bb99, #1EB79D);
-  background-image: -webkit-linear-gradient(135deg, #11bb99, #1EB79D);
+  background-color:$section_header_bg_color;
+  //background-image: -webkit-linear-gradient(135deg, #11bb99, #1EB79D);
   padding-bottom: 20px;
   .icon-projects {
     margin-right: 30px;
@@ -20,7 +21,7 @@
     padding-top: 60px;
     margin-bottom: 2%;
     font-size: 7em;
-    color: #ffffff;
+    color: $project_name_color;
     height: 15%;
     max-height: 150px !important;
   }
@@ -56,7 +57,7 @@
   }
   .summary_name {
     font-size: 3em;
-    color: #ffffff;
+    color: $project_name_color;
     padding: 20px 0 10px 0;
     text-align: center;
   }

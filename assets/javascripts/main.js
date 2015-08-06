@@ -63,4 +63,11 @@ $(document).ready(function() {
     var act_heights = $("#activities li").map(function () { return $(this).height(); }).get();
     var act_maxHeight = Math.max.apply(null, act_heights);
     $("#activities li").height(act_maxHeight);
+
+    //assign height to content - for the height of work content
+    var work_section_height = $("#work").height();
+    var work_title_height = $("#work .title_wrap").height();
+    var work_content_height = work_section_height - work_title_height;
+
+    $(".content_wrap").css("height", work_content_height);
 });

@@ -51,25 +51,26 @@
     height: 50%;
     float: left;
     background: purple;
-    /*padding: 10.1% 5% 12.2% 5%;*/
+    /*padding: 10% 5% 12.3% 5%;*/
+
+    /* height: 40%; */
+    /*background-color: $white;*/
 
     .content_image {
-      /*height: 25%;
-      width: 100%;*/
+      width: 100%;
     }
     .summary_name {
       font-size: 2.5em;
-      width: 78.5%;
+      width: 74.15%;
       display: block;
       margin-left: auto;
       margin-right: auto;
       color: #1EB79D;
-      padding-top: 4%;
+      margin-top: 2%;
     }
     .summary_time {
       font-size: 1.5em;
-      width: 25.1%;
-      width: 30.1%;
+      width: 35.3%;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -80,7 +81,7 @@
       color: #1EB79D;
       font-size: 1.5em;
       display: block;
-      width: 75%;
+      width: 77%;
       margin-left: auto;
       margin-right: auto;
       text-align: center;
@@ -142,7 +143,7 @@
     background: blue;
     /*padding: 10.1% 5% 12.2% 5%;*/
     /*background-color: $white;*/
-    .content_col2_image {
+    .content_image {
       width: 100%;
     }
     .summary_name {

@@ -342,7 +342,8 @@ a.icon-down:hover {
   #greetings #greetings_div {
     overflow: scroll;
     font-size: 1.5em;
-    height: inherit; }
+    height: inherit;
+    padding-top: 20px; }
 
 /* Skills
 *********************************************************************************************/

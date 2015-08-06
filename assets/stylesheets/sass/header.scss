@@ -1,0 +1,171 @@
+/* Header
+*********************************************************************************************/
+
+#header {
+  width: 100%;
+  height: 70px;
+  line-height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* overflow: hidden; */
+  z-index: 10;
+  #logo {
+    background: top left no-repeat;
+    background-size: 60px;
+    width: 60px;
+    height: 120px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+  }
+}
+
+/* Header Logo
+*********************************************************************************************/
+
+.top #header #logo, .services #header #logo {
+  background-image: url('../images/logo.png');
+}
+
+.about #header #logo, .contact #header #logo {
+  background-image: url('../images/logo-dark.png');
+}
+
+/* Header Menu
+*********************************************************************************************/
+
+#header ul {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  li {
+    float: left;
+    position: relative;
+    a {
+      float: left;
+      position: relative;
+      font-family: 'Montserrat', sans-serif;
+      /*font-weight: 700;*/
+      font-size: 2.5em;
+      transition-duration: 0.25s;
+    }
+    margin-left: 20px;
+    &.current a::before, a:hover::before {
+      border-radius: 50%;
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      top: -6px;
+      left: 50%;
+      margin-left: -6px;
+      content: '';
+    }
+    &.skills {
+      &.current a::before, a:hover::before {
+        background-color: #ff823c;
+      }
+    }
+    &.work {
+      &.current a::before, a:hover::before {
+        background-color: #3c96c8;
+      }
+    }
+    &.projects {
+      &.current a::before, a:hover::before {
+        background-color: #f03c96;
+      }
+    }
+    &.activities {
+      &.current a::before, a:hover::before {
+        background-color: #78e66e;
+      }
+    }
+    &.resume {
+      &.current a::before, a:hover::before {
+        background-color: #FF7C72;
+      }
+    }
+  }
+}
+
+.top #header ul li {
+  a {
+    height: 50px;
+  }
+  &.skills a {
+    color: #ff823c;
+  }
+  &.work a {
+    color: #3c96c8;
+  }
+  &.projects a {
+    color: #f03c96;
+  }
+  &.activities a {
+    color: #78e66e;
+  }
+  &.resume a {
+    color: #FF7C72;
+  }
+}
+
+#ferromenu-controller-0 {
+  visibility: hidden;
+}
+
+#nav {
+  .icon-sh {
+    background-image: url(../images/logo.png);
+  }
+  .menu-icon-top {
+    color: #137565;
+  }
+  .menu-icon-skills {
+    color: #ff823c;
+  }
+  .menu-icon-work {
+    color: #3c96c8;
+  }
+  .menu-icon-projects {
+    color: #f03c96;
+  }
+  .menu-icon-activities {
+    color: #78e66e;
+  }
+  .menu-icon-resume {
+    color: #FF7C72;
+  }
+}
+
+.top #header ul li {
+  &.current a::before, a:hover::before {
+    border-color: #ffffff;
+  }
+}
+
+.services #header ul li {
+  &.current a::before, a:hover::before {
+    border-color: #ffffff;
+  }
+}
+
+.about #header ul li a, .contact #header ul li a {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.about #header ul li {
+  &.current a::before, a:hover::before {
+    background-color: rgba(0, 0, 0, 0.65);
+  }
+}
+
+.contact #header ul li {
+  &.current a::before, a:hover::before {
+    background-color: rgba(0, 0, 0, 0.65);
+  }
+}
+
+li .desktop {
+  position: fixed !important;
+}

@@ -1,0 +1,75 @@
+/* Setup
+*********************************************************************************************/
+
+html {
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 62.5%;
+  /* 1em = 32px */
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  &:before, &:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+a {
+  color: inherit;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.parent_of_vertical_centered {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.vertical_centered {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@font-face {
+  font-family: 'ArchitectsDaughter';
+  src: url('../fonts/ArchitectsDaughter.ttf');
+}
+
+
+.ad-font {
+  font-family: 'ArchitectsDaughter';
+}
+
+@font-face {
+  font-family: 'Amethysta-Regular';
+  src: url('../fonts/Amethysta-Regular.ttf');
+}
+
+.ar-font {
+  font-family: 'Amethysta-Regular';
+}
+
+/* Sections
+*********************************************************************************************/
+
+section {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}

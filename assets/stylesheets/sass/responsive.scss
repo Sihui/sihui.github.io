@@ -1,0 +1,681 @@
+/*Responsive
+*********************************************************************************************/
+
+/* Rsp - Menu
+*********************************************************************************************/
+
+@media (max-width: 670px) {
+  #logo, #navigation {
+    display: none;
+  }
+  #ferromenu-controller-0 {
+    visibility: visible;
+  }
+  #projects .title {
+    padding-top: 20px;
+  }
+  #work .title {
+    padding-top: 30px;
+  }
+  #activities .title {
+    padding-top: 20px;
+  }
+  #header {
+    width: 0;
+  }
+}
+
+/* Rsp - Activities & Projects & Work Float
+*********************************************************************************************/
+
+@media (max-width: 1060px) {
+  #activities li {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  #projects li {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  #activities li, #projects li {
+    width: auto;
+    float: none;
+  }
+  #work {
+    .content li {
+      width: auto;
+      float: none;
+    }
+    ul li {
+      .content_row1_col1_title .summary_name, .content_row1_col2_title .summary_name {
+        font-size: 2.5em;
+      }
+      .content_row1_col1_title .summary_time, .content_row1_col2_title .summary_time {
+        font-size: 1.8em;
+      }
+    }
+    .content_col1_description, .content_col2_description {
+      font-size: 2em;
+      width: 100%;
+    }
+  }
+}
+
+/* Rsp - Activities & Projects & Work Title
+*********************************************************************************************/
+
+@media (max-width: 1090px) {
+  #activities .horizontall_centered {
+    width: 33.5%;
+  }
+  #projects .horizontall_centered {
+    width: 41.8%;
+  }
+  #work .horizontall_centered {
+    width: 24.1%;
+  }
+}
+
+@media (max-width: 850px) {
+  #activities .horizontall_centered {
+    width: 43%;
+  }
+  #projects .horizontall_centered {
+    width: 32.8%;
+  }
+  #work .horizontall_centered {
+    width: 31.1%;
+  }
+}
+
+@media (max-width: 800px) {
+  #activities .horizontall_centered {
+    width: 46%;
+  }
+  #projects .horizontall_centered {
+    width: 44.8%;
+  }
+  #work .horizontall_centered {
+    width: 33.1%;
+  }
+}
+
+@media (max-width: 690px) {
+  #activities .horizontall_centered {
+    width: 53%;
+  }
+  #projects .horizontall_centered {
+    width: 51.8%;
+  }
+  #work .horizontall_centered {
+    width: 38.1%;
+  }
+}
+
+@media (max-width: 610px) {
+  #activities .horizontall_centered {
+    width: 53%;
+  }
+  #projects .horizontall_centered {
+    width: 51.8%;
+  }
+  #work .horizontall_centered {
+    width: 38.1%;
+  }
+}
+
+@media (max-width: 550px) {
+  #activities .horizontall_centered {
+    width: 63.5%;
+  }
+  #projects .horizontall_centered {
+    width: 61.8%;
+  }
+  #work .horizontall_centered {
+    width: 46.1%;
+  }
+  #activities .title, #projects .title, #work .title {
+    font-size: 6em;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  #activities .horizontall_centered {
+    width: 60.5%;
+  }
+  #projects .horizontall_centered {
+    width: 58.8%;
+  }
+  #work .horizontall_centered {
+    width: 44.1%;
+  }
+  #activities .title, #projects .title {
+    font-size: 5em;
+  }
+  #work .title {
+    font-size: 5em;
+    padding-top: 20px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 400px) {
+  #activities .horizontall_centered {
+    width: 50.5%;
+  }
+  #projects .horizontall_centered {
+    width: 50%;
+  }
+  #work .horizontall_centered {
+    width: 36.1%;
+  }
+  #activities .title, #projects .title, #work .title {
+    font-size: 4em;
+  }
+  #activities .icon-activities, #projects .icon-projects, #work .icon-work {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  #activities .horizontall_centered {
+    width: 67.5%;
+  }
+  #projects .horizontall_centered {
+    width: 66%;
+  }
+  #work .horizontall_centered {
+    width: 47.5%;
+  }
+  #activities .title, #projects .title, #work .title {
+    font-size: 4em;
+  }
+}
+
+@media (max-width: 250px) {
+  #activities .horizontall_centered {
+    width: 67.5%;
+  }
+  #projects .horizontall_centered {
+    width: 60%;
+  }
+  #work .horizontall_centered {
+    width: 44.5%;
+  }
+  #activities .title, #projects .title, #work .title {
+    font-size: 3em;
+  }
+}
+
+/* Rsp - Activities & Projects & Work Content
+*********************************************************************************************/
+
+@media (max-width: 1075px) {
+  #work {
+    .content_row1_col1_title .summary_name, .content_row1_col2_title .summary_name {
+      font-size: 2.1em;
+    }
+    .content_row1_col1_title .summary_time, .content_row1_col2_title .summary_time {
+      font-size: 1.4em;
+    }
+  }
+}
+
+@media (max-width: 985px) {
+  #work {
+    .content_row1_col1_title .summary_time, .content_row1_col2_title .summary_time {
+      font-size: 1.2em;
+    }
+  }
+}
+
+@media (max-width: 902px) {
+  #work {
+    .content_row1_col1_title .summary_name, .content_row1_col2_title .summary_name {
+      font-size: 1.9em;
+    }
+  }
+}
+
+@media (max-width: 837px) {
+  #work {
+    .content_row1_col1_title .summary_name, .content_row1_col2_title .summary_name {
+      font-size: 1.8em;
+    }
+    .content_row1_col1_title .summary_time, .content_row1_col2_title .summary_time {
+      font-size: 1em;
+    }
+  }
+}
+
+@media (max-width: 655px) {
+  #work {
+    ul li {
+      .content_row1_col1_title .summary_name, .content_row1_col2_title .summary_name {
+        font-size: 2.3em;
+      }
+      .content_row1_col1_title .summary_time, .content_row1_col2_title .summary_time {
+        font-size: 1.6em;
+      }
+    }
+    .content_col1_description, .content_col2_description {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media (max-width: 564px) {
+  #work {
+    ul li {
+      .content_row1_col1_title .summary_name, .content_row1_col2_title .summary_name {
+        font-size: 2em;
+      }
+      .content_row1_col1_title .summary_time, .content_row1_col2_title .summary_time {
+        font-size: 1.3em;
+      }
+    }
+    .content_col1_description, .content_col2_description {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media (max-width: 457px) {
+  #work ul li {
+    .content_row1_col1_title .summary_name, .content_row1_col2_title .summary_name, .content_row1_col1_title .summary_time, .content_row1_col2_title .summary_time {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 337px) {
+  #work ul li {
+    .content_row1_col1_title .summary_name, .content_row1_col2_title .summary_name {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media (max-width: 255px) {
+  #work ul li {
+    .content_row1_col1_title .summary_name, .content_row1_col2_title .summary_name {
+      font-size: 1.3em;
+    }
+  }
+}
+
+/* Rsp - Top Title
+*********************************************************************************************/
+
+@media (max-width: 670px) and (min-height: 384.1px) {
+  #top {
+    h1 {
+      font-size: 9em;
+      padding-bottom: 0px;
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+}
+
+@media (max-width: 655px) and (min-height: 384.1px) {
+  #top {
+    h1 {
+      font-size: 8em;
+    }
+    p {
+      font-size: 2.5em;
+    }
+  }
+}
+
+@media (max-width: 600px) and (min-height: 384.1px) {
+  #top {
+    h1 {
+      font-size: 7em;
+      padding-bottom: 0px;
+    }
+    p {
+      font-size: 2em;
+    }
+  }
+}
+
+@media (max-width: 519px) and (min-height: 384.1px) {
+  #top h1 {
+    font-size: 6em;
+    border-bottom: 0px;
+    margin-bottom: -15px;
+    &::after {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 400px) and (min-height: 384.1px) {
+  #top {
+    h1 {
+      font-size: 5em;
+      margin-bottom: -25px;
+    }
+    p {
+      font-size: 1.6em;
+    }
+  }
+}
+
+@media (max-width: 320px) and (min-height: 384.1px) {
+  #top {
+    h1 {
+      font-size: 4em;
+      margin-bottom: -30px;
+    }
+    p {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media (max-width: 280px) and (min-height: 384.1px) {
+  #top {
+    h1 {
+      font-size: 3em;
+      margin-bottom: -30px;
+    }
+    p {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media (max-width: 200px) and (min-height: 384.1px) {
+  #top {
+    h1 {
+      font-size: 2em;
+      margin-bottom: -30px;
+    }
+    p {
+      font-size: 1.4em;
+    }
+  }
+}
+
+@media (max-width: 150px) {
+  #top {
+    h1 {
+      font-size: 1.5em;
+      margin-bottom: -45px;
+    }
+    p {
+      font-size: 0.6em;
+    }
+  }
+}
+
+/*
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
+    #top h1{
+      font-size: 1.5em;
+      margin-bottom: -45px;
+    }
+    #top p{
+      font-size: 0.6em;
+    }
+}
+*/
+
+/* Rsp - Skills & Greetings
+*********************************************************************************************/
+
+/*@media (max-width: 1150px) {
+  #skills .skills_img{
+    margin-right:10px;
+  }
+}
+@media (max-width: 970px) {
+  #skills .skills_img{
+    margin-top:30px;
+  }
+}
+@media (max-width: 900px) {
+  #skills .skills_img{
+    margin-top:60px;
+  }
+}
+@media (max-width: 780px) {
+  #skills .skills_img{
+    margin-top:85px;
+  }
+}
+@media (max-width: 950px) {
+  #greetings .content{
+    font-size:1.3em;
+    padding-top:80px;
+  }
+}
+@media (max-width: 822px) {
+  #greetings .content{
+    font-size:1.2em;
+  }
+}
+@media (max-width: 760px) {
+  #greetings .content{
+    font-size:1.1em;
+  }
+}
+*/
+
+@media (max-width: 700px) {
+  #greetings {
+    width: auto;
+    float: none;
+    .content {
+      font-size: 1.4em;
+    }
+  }
+  #skills {
+    width: 100%;
+    .skills_img {
+      margin-top: 0;
+      height: 67%;
+      margin-left: 27%;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  #greetings .content {
+    font-size: 1.3em;
+  }
+  #skills .skills_img {
+    margin-left: 22%;
+  }
+}
+
+@media (max-width: 535px) {
+  #greetings .content {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 500px) {
+  #greetings .content {
+    font-size: 1em;
+  }
+  #skills .skills_img {
+    margin-left: 15%;
+  }
+}
+
+@media (max-width: 495px) {
+  #greetings .content {
+    font-size: 1.1em;
+  }
+  #skills .skills_img {
+    margin-left: 18%;
+  }
+}
+
+@media (max-width: 460px) {
+  #greetings .content {
+    font-size: 1em;
+  }
+  #skills .skills_img {
+    margin-left: 14%;
+  }
+}
+
+/* Rsp Vertical - Top
+*********************************************************************************************/
+@media (max-height: 384px) and (min-width: 620.001px) {
+  #top h1 {}
+}
+
+@media (max-height: 365px) {
+  /*and (max-width: 540px) {*/
+  #top {
+    h1 {
+      font-size: 6em;
+      border-bottom: 0;
+      margin-bottom: 0;
+      line-height: 50%;
+      &::after {
+        display: none;
+      }
+    }
+    p {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media (max-height: 290px) {
+  /*and (max-width: 540px) {*/
+  #top {
+    h1 {
+      font-size: 5em;
+      /*line-height:55px;*/
+    }
+    p {
+      font-size: 1.3em;
+    }
+  }
+}
+
+@media (max-height: 250px) {
+  /*and (max-width: 540px) {*/
+  #top {
+    h1 {
+      font-size: 4em;
+      /*line-height: 39px;*/
+    }
+    p {
+      font-size: 1.1em;
+    }
+    span.icons {
+      font-size: 30px;
+      bottom: 20%;
+      margin-left: -40px;
+    }
+    .icon-github {
+      padding-right: 10px;
+    }
+    .icon-down {
+      font-size: 30px;
+    }
+  }
+}
+
+/* Rsp Vertical - Greetings
+*********************************************************************************************/
+@media (max-height: 316px) and (min-width: 1100px) {
+  #greetings .content {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-height: 316px) and (min-width: 975px) {
+  #greetings .content {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-height: 316px) and (min-width: 865px) {
+  #greetings .content {
+    font-size: 1em;
+  }
+}
+
+@media (max-height: 330px) and (max-width: 700px) {
+  #greetings .content {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-height: 300px) and (max-width: 700px) {
+  #greetings .content {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-height: 250px) and (max-width: 700px) {
+  #greetings .content {
+    font-size: 0.9em;
+  }
+}
+
+/* Rsp Vertical - Skills
+*********************************************************************************************/
+@media (max-height: 525px) and (min-width: 700.1px) {
+  #skills .skills_img {
+    margin-top: -5%;
+  }
+}
+
+@media (max-height: 464px) and (min-width: 700.1px) {
+  #skills .skills_img {
+    margin-top: -6%;
+  }
+}
+
+@media (max-height: 411px) and (min-width: 700.1px) {
+  #skills .skills_img {
+    margin-top: -8%;
+  }
+}
+
+@media (max-height: 372px) and (min-width: 700.1px) {
+  #skills .skills_img {
+    margin-top: -11%;
+  }
+}
+
+@media (max-height: 365px) and (min-width: 700.1px) {
+  #skills .skills_img {
+    margin-top: -15%;
+  }
+}
+
+@media (max-height: 316px) and (min-width: 700.1px) {
+  #skills .skills_img {
+    margin-top: -17%;
+  }
+}
+
+@media (max-height: 320px) and (max-width: 700px) {
+  #skills .skills_img {
+    margin-top: -4%;
+  }
+}
+
+@media (max-height: 220px) and (max-width: 700px) {
+  #skills .skills_img {
+    margin-top: -6%;
+  }
+}

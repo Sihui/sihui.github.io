@@ -1,0 +1,26 @@
+/* Skills
+*********************************************************************************************/
+
+#skills {
+  height: 100vh;
+  width: 35%;
+  background-color: #ffffff;
+  .skills_image {
+    /*background-image: url(../images/skills.png);
+    background-size: contain;
+    height: 80%;
+    background-repeat: no-repeat;*/
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    background: url(../images/skills.png) no-repeat center center;
+    background-size: contain;
+  }
+}
+
+/*#skills .padding{
+    height:100px;
+}*/

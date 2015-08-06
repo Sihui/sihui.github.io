@@ -1,5 +1,9 @@
 /* Top
 *********************************************************************************************/
+$home_bg_color:#D3F8E2;
+$home_words_color:#FFA69E;
+$home_icons_color:#e9cfc0;
+
 
 #top {
   width: 100%;
@@ -16,8 +20,8 @@
     content: '';
   }
   &::before {
-    background: url('../images/intro.jpg') center center no-repeat;
     background-size: cover;
+    background-color:$home_bg_color;
   }
   &::after {
     /*background-color: rgba(56, 47, 40, 0.1);*/
@@ -29,14 +33,14 @@
     width: 100%;
   }
   h1 {
-    border-bottom: 2px dashed rgba(255, 255, 255, 0.2);
+    border-bottom: 2px dashed $home_icons_color;
     font-size: 10em;
     line-height: 100px;
-    color: #ffffff;
+    color: $home_words_color;
     padding-bottom: 18px;
     margin-bottom: 27px;
     &::after {
-      background-color: #ce7354;
+      background-color: $home_icons_color;
       border-radius: 50%;
       position: absolute;
       width: 30px;
@@ -50,7 +54,7 @@
   p {
     font-size: 28px;
     line-height: 28px;
-    color: #ffffff;
+    color: $home_words_color;
   }
   span.icons {
     font-size: 40px;
@@ -69,6 +73,12 @@
 *********************************************************************************************/
 
 a {
+  &.icon-github, &.icon-linkedin {
+    color: $home_icons_color !important;
+  }
+  &.icon-down {
+    color: $home_icons_color;
+  }
   &.icon-github:hover, &.icon-linkedin:hover {
     color: #1EB79D !important;
   }

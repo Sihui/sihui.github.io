@@ -214,8 +214,8 @@ li .desktop {
     z-index: -2;
     content: ''; }
   #top::before {
-    background: url("../images/intro.jpg") center center no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    background-color: #D3F8E2; }
   #top::after {
     /*background-color: rgba(56, 47, 40, 0.1);*/ }
   #top .top {
@@ -224,14 +224,14 @@ li .desktop {
     z-index: 1;
     width: 100%; }
   #top h1 {
-    border-bottom: 2px dashed rgba(255, 255, 255, 0.2);
+    border-bottom: 2px dashed #e9cfc0;
     font-size: 10em;
     line-height: 100px;
-    color: #ffffff;
+    color: #FFA69E;
     padding-bottom: 18px;
     margin-bottom: 27px; }
     #top h1::after {
-      background-color: #ce7354;
+      background-color: #e9cfc0;
       border-radius: 50%;
       position: absolute;
       width: 30px;
@@ -243,7 +243,7 @@ li .desktop {
   #top p {
     font-size: 28px;
     line-height: 28px;
-    color: #ffffff; }
+    color: #FFA69E; }
   #top span.icons {
     font-size: 40px;
     position: absolute;
@@ -256,6 +256,10 @@ li .desktop {
 *********************************************************************************************/
 /* Top Icons
 *********************************************************************************************/
+a.icon-github, a.icon-linkedin {
+  color: #e9cfc0 !important; }
+a.icon-down {
+  color: #e9cfc0; }
 a.icon-github:hover, a.icon-linkedin:hover {
   color: #1EB79D !important; }
 a.icon-down:hover {

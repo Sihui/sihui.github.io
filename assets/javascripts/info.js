@@ -7,7 +7,7 @@ var info = {
     Expected: 'May 2016',
   },
   Tech:{
-    Hats:['Full Stack Web Developer', 'Backend Developer', 'Mobile Developer'],
+    Hats:['Software Engineer','Full Stack Web Developer', 'Backend Developer', 'Mobile Developer'],
     Skills:{
       ProgrammingLanguages:['Python', 'Java', 'JavaScript', 'Ruby', 'Swift'],
       WebApplicationDevelopment:['NodeJS', 'Jetty', 'Ruby on Rails', 'AngularJS', 'REST', 'API'],

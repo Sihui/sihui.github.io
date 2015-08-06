@@ -287,9 +287,9 @@ a.icon-github, a.icon-linkedin {
 a.icon-down {
   color: #e9cfc0; }
 a.icon-github:hover, a.icon-linkedin:hover {
-  color: #A0CED9 !important; }
+  color: #6DD3CE !important; }
 a.icon-down:hover {
-  color: #A0CED9; }
+  color: #6DD3CE; }
 
 /* Top Icon-down
 *********************************************************************************************/
@@ -432,7 +432,7 @@ a.icon-down:hover {
 *********************************************************************************************/
 #work {
   min-height: 100vh;
-  background-color: #ffffff;
+  background-color: #EFF7F6;
   /*border-bottom-color: #1EB79D;
   border-bottom-style: solid;
   border-bottom-width: 20px;*/ }
@@ -453,7 +453,7 @@ a.icon-down:hover {
       width: 50%;
       height: 50%;
       float: left;
-      background: #ffffff;
+      background: #EFF7F6;
       padding: 60px; }
       #work .content_wrap .content_row1_col1_title .content_sf_image {
         width: 100%;
@@ -490,7 +490,7 @@ a.icon-down:hover {
       width: 50%;
       height: 50%;
       float: left;
-      background: #ffffff;
+      background: #EFF7F6;
       padding: 60px; }
       #work .content_wrap .content_row1_col2_title .content_sf_image {
         width: 100%;
@@ -528,7 +528,7 @@ a.icon-down:hover {
       width: 50%;
       height: 50%;
       float: left;
-      background: #ffffff;
+      background: #EFF7F6;
       padding: 60px; }
       #work .content_wrap .content_row2_col1_title .content_image {
         width: 100%;
@@ -565,7 +565,7 @@ a.icon-down:hover {
       width: 50%;
       height: 50%;
       float: left;
-      background: #ffffff;
+      background: #EFF7F6;
       padding: 60px; }
       #work .content_wrap .content_row2_col2_title .content_image {
         width: 100%;
@@ -624,7 +624,7 @@ a.icon-down:hover {
 
 #projects {
   min-height: 100vh;
-  background-color: #6DD3CE;
+  background-color: #D3F8E2;
   padding-bottom: 20px; }
   #projects .icon-projects {
     margin-right: 30px;
@@ -638,7 +638,7 @@ a.icon-down:hover {
     padding-top: 60px;
     margin-bottom: 2%;
     font-size: 7em;
-    color: #AEECEF;
+    color: #6DD3CE;
     height: 15%;
     max-height: 150px !important; }
   #projects .content {
@@ -666,17 +666,17 @@ a.icon-down:hover {
   height: 180px; }
 #projects .content_col .summary_name {
   font-size: 3em;
-  color: #AEECEF;
+  color: #6DD3CE;
   padding: 20px 0 10px 0;
   text-align: center; }
 #projects .content_col .summary_time {
   font-size: 1.5em;
-  color: #6D9DC5;
+  color: #00797F;
   font-style: italic;
   text-align: center; }
 #projects .content_col .project_content_description {
   font-size: 1.5em;
-  color: #607baf;
+  color: #19ABB2;
   padding: 10px 5px 0 5px;
   line-height: 1.3em;
   text-align: center;
@@ -686,9 +686,22 @@ a.icon-down:hover {
 
 /* Activites
 *********************************************************************************************/
+.horizontall_centered {
+  width: 20.7%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.title {
+  font-size: 7em;
+  color: #D3F8E2;
+  padding-top: 55px;
+  margin-bottom: 2%;
+  height: 80px; }
+
 #activities {
   min-height: 100vh;
-  background-color: #ffffff;
+  background-color: #EFF7F6;
   padding-bottom: 20px; }
   #activities .icon-activities {
     margin-right: 30px; }
@@ -708,7 +721,7 @@ a.icon-down:hover {
     margin-left: auto;
     margin-right: auto;
     float: left;
-    background-color: #ffffff;
+    background-color: #EFF7F6;
     padding-top: 25px;
     height: 350px; }
 
@@ -754,7 +767,10 @@ a.icon-down:hover {
   color: #137565;
   padding: 10px 5px 0 5px;
   line-height: 1.3em;
-  text-align: center; }
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
 
 /* Loading Overlay
 *********************************************************************************************/

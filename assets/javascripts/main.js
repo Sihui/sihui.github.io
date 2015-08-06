@@ -74,4 +74,16 @@ $(document).ready(function() {
     //$(".content_row1_col1_title").css("height", content_wrap * 0.3);
     $(".content_text").css("height", content_text_height);
 
+    //Add Geetings' JSON to HTML
+    var obj = {
+      name:'John Doe',
+      age: 20,
+      children:[{name:'Jack', age:5}, {name:'Ann', age:8}],
+      wife:{name:'Jane Doe', age:28 }
+    }
+
+    var node = new PrettyJSON.view.Node({
+      el:$('#greetings_div'),
+      data:obj
+    });
 });

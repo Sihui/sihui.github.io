@@ -5,7 +5,7 @@ $work_icon_padding:60px;
 
 #work {
   min-height: 100vh;
-  background-color: $white;
+  background-color: $greetings_bg_color;
   /*border-bottom-color: #1EB79D;
   border-bottom-style: solid;
   border-bottom-width: 20px;*/
@@ -28,7 +28,7 @@ $work_icon_padding:60px;
       width:50%;
       height:50%;
       float: left;
-      background: $white;
+      background: $greetings_bg_color;
       padding:$work_icon_padding;
 
       .content_sf_image {
@@ -75,7 +75,7 @@ $work_icon_padding:60px;
       width:50%;
       height: 50%;
       float: left;
-      background: $white;
+      background: $greetings_bg_color;
       padding:$work_icon_padding;
       .content_sf_image {
         width: 100%;
@@ -119,7 +119,7 @@ $work_icon_padding:60px;
       width:50%;
       height: 50%;
       float: left;
-      background: $white;
+      background: $greetings_bg_color;
       padding:$work_icon_padding;
 
       .content_image {
@@ -162,7 +162,7 @@ $work_icon_padding:60px;
       width:50%;
       height: 50%;
       float: left;
-      background: $white;
+      background: $greetings_bg_color;
       padding:$work_icon_padding;
       .content_image {
         width: 100%;

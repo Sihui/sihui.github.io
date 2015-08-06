@@ -2,7 +2,7 @@
 *********************************************************************************************/
 
 #overlay {
-  background-color: #ffffff;
+  background-color: $greetings_bg_color;
   position: fixed;
   top: 0;
   right: 0;
@@ -12,9 +12,9 @@
   img {
     width: 150px;
     position: absolute;
-    top: 80px;
+    top: 50px;
     left: 50%;
-    margin-left: -75px;
+    margin-left: -120px;
   }
 }
 

@@ -8,7 +8,7 @@ html {
 body {
   width: 100%;
   height: 100%;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 62.5%;
   /* 1em = 32px */ }
 
@@ -341,9 +341,10 @@ a.icon-down:hover {
     text-decoration: none; }
   #greetings #greetings_div {
     overflow: scroll;
-    font-size: 1.5em;
+    font-size: 2em;
     height: inherit;
-    padding-top: 20px; }
+    padding-top: 15%;
+    line-height: 1.4em; }
 
 /* Skills
 *********************************************************************************************/
@@ -594,10 +595,12 @@ a.icon-down:hover {
   overflow: hidden;
   vertical-align: middle;
   display: block;
-  margin: auto;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%; }
+  margin: auto; }
+
+.round_image_corner {
+  -moz-border-radius: 20%;
+  -webkit-border-radius: 20%;
+  border-radius: 20%; }
 
 #projects .content_col .content_image {
   width: 180px;
@@ -653,14 +656,9 @@ a.icon-down:hover {
 .act_wrap_image {
   width: 180px;
   height: 180px;
-  overflow: hidden;
   vertical-align: middle;
   display: block;
-  margin: auto;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  border: 3px #1EB79D solid; }
+  margin: auto; }
 
 .swe_icon {
   margin-left: -3px;
@@ -700,7 +698,7 @@ a.icon-down:hover {
 /* Loading Overlay
 *********************************************************************************************/
 #overlay {
-  background-color: #ffffff;
+  background-color: #EFF7F6;
   position: fixed;
   top: 0;
   right: 0;
@@ -710,9 +708,9 @@ a.icon-down:hover {
   #overlay img {
     width: 150px;
     position: absolute;
-    top: 80px;
+    top: 50px;
     left: 50%;
-    margin-left: -75px; }
+    margin-left: -120px; }
 
 /* Loading Indicator
 *********************************************************************************************/

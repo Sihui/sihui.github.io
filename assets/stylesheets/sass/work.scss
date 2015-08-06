@@ -9,6 +9,19 @@ $work_icon_padding:60px;
   /*border-bottom-color: #1EB79D;
   border-bottom-style: solid;
   border-bottom-width: 20px;*/
+  .horizontall_centered {
+    width: 20.7%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    font-size: 7em;
+    color: $section_header_title_color;
+    padding-top: 55px;
+    margin-bottom: 2%;
+    height: 80px;
+  }
   .title_wrap {
     background-color: $section_header_bg_color;
     width: 100%;

@@ -403,6 +403,8 @@ section {
   #work .content_col1_title {
     padding: 10.1% 5% 12.2% 5%;
     background-color: #ffffff; }
+  #work .content_col1_title:hover {
+    background-color: yellow; }
   #work .content_col1_image {
     height: 25%;
     width: 100%; }

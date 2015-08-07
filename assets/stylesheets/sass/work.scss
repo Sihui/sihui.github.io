@@ -117,13 +117,29 @@
   .content_row1 .content_row1_col1_title:hover {
     @extend .content_sf_hover_basic;
      .content_r1c1_overlay {
-      opacity:1;
+      //opacity:1;
+      /*-webkit-filter: blur(20px);
+      -moz-filter: blur(15px);
+      -o-filter: blur(15px);
+      -ms-filter: blur(15px);
+      filter: blur(15px);*/
+      filter: blur(1px);
+      opacity: 1;
+      .content_r1c1_description{
+        filter: blur(0px);
+        opacity: 1;
+      }
     }
   }
   .content_row1 .content_row1_col2_title:hover{
     @extend .content_sf_hover_basic;
     .content_r1c2_overlay {
-      opacity:1;
+      filter: blur(1px);
+      opacity: 0.95;
+      .content_r1c2_description{
+        filter: blur(0px);
+        opacity: 1;
+      }
     }
   }
   .content_row2 .content_row2_col1_title:hover{

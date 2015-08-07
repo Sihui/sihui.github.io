@@ -458,7 +458,8 @@ a.icon-down:hover {
     color: #CCCCCC;
     padding-top: 55px;
     margin-bottom: 2%;
-    height: 80px; }
+    height: 80px;
+    text-align: center; }
   #work .title_wrap {
     width: 100%;
     padding-bottom: 30px;
@@ -503,7 +504,8 @@ a.icon-down:hover {
     font-size: 7em;
     color: #CCCCCC;
     height: 15%;
-    max-height: 150px !important; }
+    max-height: 150px !important;
+    text-align: center; }
   #projects .content {
     height: 79.3%; }
   #projects li {
@@ -566,7 +568,8 @@ a.icon-down:hover {
     margin-bottom: 2%;
     font-size: 7em;
     height: 15%;
-    color: #CCCCCC; }
+    color: #CCCCCC;
+    text-align: center; }
   #activities li {
     width: 33.3333333333%;
     margin-left: auto;

@@ -118,7 +118,7 @@ var info = {
       TheLittlePrince:{
         Quotes:[
         'It is only with the heart that one can see rightly; what is essential is invisible to the eye.',
-        'To me, you are still nothing more than a little boy who is just like a hundred thousand other little boys. And I have no need of you. And you, on your part, have no need of me. To you, I am nothing more than a fox like a hundred thousand other foxes. But if you tame me, then we shall need each other. To me, you will be unique in all the world.'
+        'But if you tame me, then we shall need each other. To me, you will be unique in all the world.'
         ]
       }
     },

@@ -25,7 +25,7 @@ var info = {
           Tasks:[
             'Implemented a WebSocket component for continuously pulling data with low latency from Kafka, unit tested with JUnit and Mockito',
             'Developed a git branches management app in NodeJS; unit tested and functional tested with MochaJS, ChaiJS, and SinonJS',
-            'Implemented a component for pulling data from clients’ Amazon S3 Buckets to our distributed system',
+            'Implemented a component for pulling data from clients’ Amazon S3 Buckets into our distributed system',
             'Implemented REST APIs for core components in Java; unit tested with Groovy, JUnit, and Mockito'
           ]
         },

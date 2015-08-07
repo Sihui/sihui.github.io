@@ -37,17 +37,23 @@ a {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%); }
 
-@font-face {
+/*@font-face {
   font-family: 'ArchitectsDaughter';
-  src: url("../fonts/ArchitectsDaughter.ttf"); }
+  src: url('../fonts/ArchitectsDaughter.ttf');
+}
+
+
 .ad-font {
-  font-family: 'ArchitectsDaughter'; }
+  font-family: 'ArchitectsDaughter';
+}
 
 @font-face {
-  font-family: 'Amethysta-Regular';
-  src: url("../fonts/Amethysta-Regular.ttf"); }
+
+  //font-family: 'Amethysta-Regular';
+  //src: url('../fonts/Amethysta-Regular.ttf');
+}*/
 .ar-font {
-  font-family: 'Amethysta-Regular'; }
+  font-family: 'Lora', serif; }
 
 /* Sections
 *********************************************************************************************/
@@ -71,10 +77,6 @@ section {
 
 /* Typography
 *********************************************************************************************/
-h1, h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700; }
-
 a {
   text-decoration: none;
   -webkit-transition-duration: 0.25s;
@@ -127,11 +129,12 @@ p a, strong {
     #header ul li a {
       float: left;
       position: relative;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Lora', serif;
       /*font-weight: 700;*/
       font-size: 2.5em;
       -webkit-transition-duration: 0.25s;
-              transition-duration: 0.25s; }
+              transition-duration: 0.25s;
+      color: #F7B2AD; }
     #header ul li.current a::before, #header ul li a:hover::before {
       border-radius: 50%;
       position: absolute;
@@ -142,28 +145,34 @@ p a, strong {
       margin-left: -6px;
       content: ''; }
     #header ul li.skills.current a::before, #header ul li.skills a:hover::before {
-      background-color: #E4C1F9; }
+      background-color: #F7B2AD; }
     #header ul li.work.current a::before, #header ul li.work a:hover::before {
-      background-color: #F694C1; }
+      background-color: #F7B2AD; }
     #header ul li.projects.current a::before, #header ul li.projects a:hover::before {
-      background-color: #6D9DC5; }
+      background-color: #F7B2AD; }
     #header ul li.activities.current a::before, #header ul li.activities a:hover::before {
-      background-color: #F76F8E; }
+      background-color: #F7B2AD; }
     #header ul li.resume.current a::before, #header ul li.resume a:hover::before {
-      background-color: #A9DEF9; }
+      background-color: #F7B2AD; }
 
-.top #header ul li a {
-  height: 50px; }
-.top #header ul li.skills a {
-  color: #E4C1F9; }
-.top #header ul li.work a {
-  color: #F694C1; }
-.top #header ul li.projects a {
-  color: #6D9DC5; }
-.top #header ul li.activities a {
-  color: #F76F8E; }
-.top #header ul li.resume a {
-  color: #A9DEF9; }
+.top #header ul li {
+  /*&.skills a {
+    color: $skill_color;
+  }
+  &.work a {
+    color: $work_color;
+  }
+  &.projects a {
+    color: $projects_color;
+  }
+  &.activities a {
+    color: $activities_color;
+  }
+  &.resume a {
+    color: $resume_color;
+  }*/ }
+  .top #header ul li a {
+    height: 50px; }
 
 #ferromenu-controller-0 {
   visibility: hidden; }
@@ -225,14 +234,14 @@ li .desktop {
     z-index: 1;
     width: 100%; }
   #top h1 {
-    border-bottom: 2px dashed #e9cfc0;
+    font-family: 'Lora', serif;
+    font-weight: bold;
     font-size: 10em;
     line-height: 100px;
-    color: #FFA69E;
-    padding-bottom: 18px;
-    margin-bottom: 27px; }
-    #top h1::after {
-      background-color: #e9cfc0;
+    color: #FF491A;
+    margin-bottom: 27px;
+    /*&::after {
+      background-color: $home_middle_line_color;
       border-radius: 50%;
       position: absolute;
       width: 30px;
@@ -240,11 +249,14 @@ li .desktop {
       bottom: 41px;
       left: 50%;
       margin-left: -16px;
-      content: ''; }
+      content: '';
+    }*/ }
   #top p {
+    font-family: 'Lora', serif;
+    font-style: italic;
     font-size: 28px;
-    line-height: 28px;
-    color: #FFA69E; }
+    line-height: 10px;
+    color: #FF491A; }
   #top span.icons {
     font-size: 40px;
     position: absolute;
@@ -258,13 +270,13 @@ li .desktop {
 /* Top Icons
 *********************************************************************************************/
 a.icon-github, a.icon-linkedin {
-  color: #e9cfc0 !important; }
+  color: #F7B2AD !important; }
 a.icon-down {
-  color: #e9cfc0; }
+  color: #F7B2AD; }
 a.icon-github:hover, a.icon-linkedin:hover {
-  color: #6DD3CE !important; }
+  color: #B4EBCA !important; }
 a.icon-down:hover {
-  color: #6DD3CE; }
+  color: #B4EBCA; }
 
 /* Top Icon-down
 *********************************************************************************************/
@@ -1115,7 +1127,6 @@ a.icon-down:hover {
 /* eof common */
 /* node */
 .node-content-wrapper {
-  font-family: 'Quicksand', sans-serif;
   background-color: #fff; }
   .node-content-wrapper ul {
     border-left: 1px dotted #ccc;
@@ -1148,7 +1159,7 @@ a.icon-down:hover {
   color: #ccc; }
 
 .string {
-  color: #080; }
+  color: #FF491A; }
 
 .number {
   color: #ccaa00; }

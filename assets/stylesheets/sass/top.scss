@@ -30,13 +30,15 @@
     width: 100%;
   }
   h1 {
-    border-bottom: 2px dashed $home_middle_line_color;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    //border-bottom: 2px dashed $home_middle_line_color;
     font-size: 10em;
     line-height: 100px;
     color: $home_words_color;
-    padding-bottom: 18px;
+    //padding-bottom: 18px;
     margin-bottom: 27px;
-    &::after {
+    /*&::after {
       background-color: $home_middle_line_color;
       border-radius: 50%;
       position: absolute;
@@ -46,11 +48,13 @@
       left: 50%;
       margin-left: -16px;
       content: '';
-    }
+    }*/
   }
   p {
+    font-family: 'Lora', serif;
+    font-style:italic;
     font-size: 28px;
-    line-height: 28px;
+    line-height: 10px;
     color: $home_words_color;
   }
   span.icons {

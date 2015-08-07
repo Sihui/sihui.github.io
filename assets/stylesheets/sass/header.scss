@@ -45,13 +45,15 @@
   li {
     float: left;
     position: relative;
+
     a {
       float: left;
       position: relative;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Lora', serif;
       /*font-weight: 700;*/
       font-size: 2.5em;
       transition-duration: 0.25s;
+      color: $menu_color;
     }
     margin-left: 20px;
     &.current a::before, a:hover::before {
@@ -66,27 +68,27 @@
     }
     &.skills {
       &.current a::before, a:hover::before {
-        background-color: $skill_color;
+        background-color: $menu_color;
       }
     }
     &.work {
       &.current a::before, a:hover::before {
-        background-color: $work_color;
+        background-color: $menu_color;
       }
     }
     &.projects {
       &.current a::before, a:hover::before {
-        background-color: $projects_color;
+        background-color: $menu_color;
       }
     }
     &.activities {
       &.current a::before, a:hover::before {
-        background-color: $activities_color;
+        background-color: $menu_color;
       }
     }
     &.resume {
       &.current a::before, a:hover::before {
-        background-color: $resume_color;
+        background-color: $menu_color;
       }
     }
   }
@@ -96,7 +98,7 @@
   a {
     height: 50px;
   }
-  &.skills a {
+  /*&.skills a {
     color: $skill_color;
   }
   &.work a {
@@ -110,7 +112,7 @@
   }
   &.resume a {
     color: $resume_color;
-  }
+  }*/
 }
 
 #ferromenu-controller-0 {

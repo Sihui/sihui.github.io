@@ -48,7 +48,7 @@ a {
   transform: translateY(-50%);
 }
 
-@font-face {
+/*@font-face {
   font-family: 'ArchitectsDaughter';
   src: url('../fonts/ArchitectsDaughter.ttf');
 }
@@ -59,12 +59,14 @@ a {
 }
 
 @font-face {
-  font-family: 'Amethysta-Regular';
-  src: url('../fonts/Amethysta-Regular.ttf');
-}
+
+  //font-family: 'Amethysta-Regular';
+  //src: url('../fonts/Amethysta-Regular.ttf');
+}*/
 
 .ar-font {
-  font-family: 'Amethysta-Regular';
+  font-family: 'Lora', serif;
+  //font-family: 'Amethysta-Regular';
 }
 
 /* Sections

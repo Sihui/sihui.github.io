@@ -9,7 +9,7 @@
 /* node */
 
 .node-content-wrapper {
-  font-family: 'Quicksand', sans-serif;
+  //font-family: 'Quicksand', sans-serif;
   background-color: #fff;
   ul {
     border-left: 1px dotted #ccc;
@@ -52,7 +52,7 @@
 }
 
 .string {
-  color: #080;
+  color: $json_string_color;
 }
 
 .number {

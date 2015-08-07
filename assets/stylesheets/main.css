@@ -10,7 +10,7 @@ body {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   font-size: 62.5%;
-  background-color: #EFF7F6;
+  background: url("../images/natural-paper.png");
   /* 1em = 32px */ }
 
 * {
@@ -215,8 +215,7 @@ li .desktop {
     z-index: -2;
     content: ''; }
   #top::before {
-    background-size: cover;
-    background-color: #D3F8E2; }
+    background-size: cover; }
   #top::after {
     /*background-color: rgba(56, 47, 40, 0.1);*/ }
   #top .top {
@@ -324,7 +323,6 @@ a.icon-down:hover {
 *********************************************************************************************/
 #greetings {
   height: 100vh;
-  background-color: #EFF7F6;
   width: 65%;
   float: left; }
   #greetings .horizontall_centered {
@@ -351,8 +349,7 @@ a.icon-down:hover {
 *********************************************************************************************/
 #skills {
   height: 100vh;
-  width: 35%;
-  background-color: #EFF7F6; }
+  width: 35%; }
   #skills .skills_image {
     /*background-image: url(../images/skills.png);
     background-size: contain;
@@ -382,8 +379,7 @@ a.icon-down:hover {
 
 .content_row, #work .content_wrap .content_row1, #work .content_wrap .content_row2 {
   width: 70%;
-  margin: auto;
-  background: #EFF7F6; }
+  margin: auto; }
 
 .gen_summary_name, #work .content_wrap .content_row1 .content_row1_col1_title .content_text .summary_name, #work .content_wrap .content_row1 .content_row1_col2_title .content_text .summary_name, #work .content_wrap .content_row2 .content_row2_col1_title .content_text .summary_name, #work .content_wrap .content_row2 .content_row2_col2_title .content_text .summary_name {
   text-align: center;
@@ -410,7 +406,6 @@ a.icon-down:hover {
   width: 50%;
   height: 100%;
   float: left;
-  background: #EFF7F6;
   padding: 60px;
   position: relative; }
 
@@ -436,8 +431,7 @@ a.icon-down:hover {
 /* Work
 *********************************************************************************************/
 #work {
-  min-height: 100vh;
-  background-color: #EFF7F6; }
+  min-height: 100vh; }
   #work .horizontall_centered {
     width: 20.7%;
     display: block;
@@ -483,7 +477,6 @@ a.icon-down:hover {
 *********************************************************************************************/
 #projects {
   min-height: 100vh;
-  background-color: #D3F8E2;
   padding-bottom: 20px; }
   #projects .icon-projects {
     margin-right: 30px;
@@ -549,7 +542,6 @@ a.icon-down:hover {
 *********************************************************************************************/
 #activities {
   min-height: 100vh;
-  background-color: #EFF7F6;
   padding-bottom: 20px; }
   #activities .icon-activities {
     margin-right: 30px; }
@@ -569,7 +561,6 @@ a.icon-down:hover {
     margin-left: auto;
     margin-right: auto;
     float: left;
-    background-color: #EFF7F6;
     padding-top: 25px;
     height: 350px; }
 

@@ -42,6 +42,9 @@
   position: absolute;
   top: 0;
   right: 40px;
+  background: $background;
+  background-color:white;
+  padding-bottom: 16px;
   li {
     float: left;
     position: relative;
@@ -65,31 +68,10 @@
       left: 50%;
       margin-left: -6px;
       content: '';
+      background-color: $menu_hover_color;
     }
-    &.skills {
-      &.current a::before, a:hover::before {
-        background-color: $menu_color;
-      }
-    }
-    &.work {
-      &.current a::before, a:hover::before {
-        background-color: $menu_color;
-      }
-    }
-    &.projects {
-      &.current a::before, a:hover::before {
-        background-color: $menu_color;
-      }
-    }
-    &.activities {
-      &.current a::before, a:hover::before {
-        background-color: $menu_color;
-      }
-    }
-    &.resume {
-      &.current a::before, a:hover::before {
-        background-color: $menu_color;
-      }
+    a:hover{
+      color:$menu_hover_color;
     }
   }
 }
@@ -123,7 +105,7 @@
   .icon-sh {
     background-image: url(../images/logo.png);
   }
-  .menu-icon-top {
+  /*.menu-icon-top {
     color: #137565;
   }
   .menu-icon-skills {
@@ -140,7 +122,7 @@
   }
   .menu-icon-resume {
     color: #FF7C72;
-  }
+  }*/
 }
 
 .top #header ul li {

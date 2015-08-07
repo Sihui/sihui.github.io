@@ -4,7 +4,6 @@
 
 #work {
   min-height: 100vh;
-  //background-color: $greetings_bg_color;
   .horizontall_centered {
     width: 20.7%;
     display: block;
@@ -19,7 +18,7 @@
     height: 80px;
   }
   .title_wrap {
-    background-color: $section_header_bg_color;
+    //background-color: $section_header_bg_color;
     width: 100%;
     padding-bottom: 30px;
     max-height: 150px !important;
@@ -29,9 +28,9 @@
     margin-right: 30px;
   }
   .content_wrap {
-    border-top: $section_header_bg_color;
+    /*border-top: $section_header_bg_color;
     border-top-width: 20px;
-    border-top-style: solid;
+    border-top-style: solid;*/
     padding: 2%;
     .content_row1{
       @extend .content_row;
@@ -80,9 +79,6 @@
         }
         .content_r2c1_overlay {
           @extend .content_overlay;
-          top: 0;
-          font-size: 1.5em;
-          left: 1%;
         }
         .content_text{
           .summary_name {

@@ -1,5 +1,6 @@
 /* Setup
 *********************************************************************************************/
+@import 'variables', 'basics';
 
 html {
   font-size: 16px;
@@ -12,6 +13,7 @@ body {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   font-size: 62.5%;
+  background-color:$greetings_bg_color;
   /* 1em = 32px */
 }
 

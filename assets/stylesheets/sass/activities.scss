@@ -19,7 +19,7 @@
     padding-top: 60px;
     margin-bottom: 2%;
     font-size: 7em;
-    color: #1EB79D;
+    color: $section_header_bg_color;
     height: 15%;
   }
   li {
@@ -37,14 +37,9 @@
 .act_wrap_image {
   width: 180px;
   height: 180px;
-  //overflow: hidden;
   vertical-align: middle;
   display: block;
   margin: auto;
-  //-moz-border-radius: 50%;
-  //-webkit-border-radius: 50%;
-  //border-radius: 50%;
-  //border: 3px #1EB79D solid;
 }
 .swe_icon {
   margin-left: -3px;
@@ -68,19 +63,19 @@
   }
   .summary_name {
     font-size: 3em;
-    color: #1EB79D;
+    color: $project_name_color;
     padding: 20px 0 10px 0;
     text-align: center;
   }
   .summary_time {
     font-size: 1.5em;
-    color: #18927E;
+    color: $project_time_color;
     font-style: italic;
     text-align: center;
   }
   .activity_content_description {
     font-size: 1.5em;
-    color: #137565;
+    color: $project_details_color;
     padding: 10px 5px 0 5px;
     line-height: 1.3em;
     text-align: center;

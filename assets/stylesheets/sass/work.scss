@@ -40,11 +40,23 @@ $work_icon_padding:60px;
       float: left;
       background: $greetings_bg_color;
       padding:$work_icon_padding;
-
+      //background:url(../images/salesforce_matrix.png);
       .content_sf_image {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
+      }
+      .content_r1c1_overlay {
+        //background:rgba(0,0,0,.75);
+        text-align:center;
+        //padding:45px 0 66px 0;
+        opacity:0;
+        -webkit-transition: opacity .25s ease;
+        -moz-transition: opacity .25s ease;
+        .content_r1c1_description{
+          font-weight:2em;
+          font-size:2em;
+        }
       }
       .content_text{
         .summary_name {
@@ -68,16 +80,7 @@ $work_icon_padding:60px;
           margin-right: auto;
           padding-top: 1.5%;
         }
-        .content_description {
-          color: #1EB79D;
-          font-size: 1.5em;
-          display: block;
-          width: 77%;
-          margin-left: auto;
-          margin-right: auto;
-          text-align: center;
-          line-height: 1.3em;
-        }
+
       }
 
     }
@@ -115,7 +118,16 @@ $work_icon_padding:60px;
         padding-top: 1.5%;
       }
       .content_description {
-        color: #1EB79D;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(29, 106, 154, 0.72);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+        /*color: #1EB79D;
         font-size: 1.5em;
         display: block;
         width: 77%;
@@ -123,7 +135,7 @@ $work_icon_padding:60px;
         margin-right: auto;
         text-align: center;
         line-height: 1.3em;
-        margin-top: 2%;
+        margin-top: 2%;*/
       }
     }
 
@@ -161,14 +173,15 @@ $work_icon_padding:60px;
         padding-top: 1.5%;
       }
       .content_description {
-        color: #1EB79D;
-        font-size: 1.5em;
-        display: block;
-        width: 77%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        line-height: 1.3em;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(29, 106, 154, 0.72);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
       }
     }
     .content_row2_col2_title {
@@ -182,6 +195,7 @@ $work_icon_padding:60px;
         margin-left: auto;
         margin-right: auto;
       }
+
       .summary_name {
         text-align: center;
         font-size: 3em;
@@ -204,14 +218,15 @@ $work_icon_padding:60px;
         padding-top: 1.5%;
       }
       .content_description {
-        color: #1EB79D;
-        font-size: 1.5em;
-        display: block;
-        width: 77%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        line-height: 1.3em;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(29, 106, 154, 0.72);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
       }
     }
   }
@@ -226,8 +241,6 @@ $work_icon_padding:60px;
       opacity: 0.95;
       background-color: $section_header_title_color;
       display:block;
-
-
   }
   .content_sf_hover_basic{
     @extend .content_hover_basic;
@@ -243,6 +256,13 @@ $work_icon_padding:60px;
   }
   .content_row1_col1_title:hover {
     @extend .content_sf_hover_basic;
+    position: relative;
+    .content_r1c1_overlay {
+      opacity:1;
+      position: absolute;
+      top: 5%;
+      text:center;
+    }
   }
   .content_row1_col2_title:hover{
     @extend .content_sf_hover_basic;

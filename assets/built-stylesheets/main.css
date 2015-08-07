@@ -410,6 +410,14 @@ a.icon-down:hover {
         width: 100%;
         margin-left: auto;
         margin-right: auto; }
+      #work .content_wrap .content_row1_col1_title .content_r1c1_overlay {
+        text-align: center;
+        opacity: 0;
+        -webkit-transition: opacity .25s ease;
+        -moz-transition: opacity .25s ease; }
+        #work .content_wrap .content_row1_col1_title .content_r1c1_overlay .content_r1c1_description {
+          font-weight: 2em;
+          font-size: 2em; }
       #work .content_wrap .content_row1_col1_title .content_text .summary_name {
         text-align: center;
         font-size: 3em;
@@ -429,15 +437,6 @@ a.icon-down:hover {
         margin-left: auto;
         margin-right: auto;
         padding-top: 1.5%; }
-      #work .content_wrap .content_row1_col1_title .content_text .content_description {
-        color: #1EB79D;
-        font-size: 1.5em;
-        display: block;
-        width: 77%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        line-height: 1.3em; }
     #work .content_wrap .content_row1_col2_title {
       width: 50%;
       height: 50%;
@@ -468,7 +467,16 @@ a.icon-down:hover {
         margin-right: auto;
         padding-top: 1.5%; }
       #work .content_wrap .content_row1_col2_title .content_description {
-        color: #1EB79D;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(29, 106, 154, 0.72);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+        /*color: #1EB79D;
         font-size: 1.5em;
         display: block;
         width: 77%;
@@ -476,7 +484,7 @@ a.icon-down:hover {
         margin-right: auto;
         text-align: center;
         line-height: 1.3em;
-        margin-top: 2%; }
+        margin-top: 2%;*/ }
     #work .content_wrap .content_row2_col1_title {
       width: 50%;
       height: 50%;
@@ -507,14 +515,15 @@ a.icon-down:hover {
         margin-right: auto;
         padding-top: 1.5%; }
       #work .content_wrap .content_row2_col1_title .content_description {
-        color: #1EB79D;
-        font-size: 1.5em;
-        display: block;
-        width: 77%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        line-height: 1.3em; }
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(29, 106, 154, 0.72);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0; }
     #work .content_wrap .content_row2_col2_title {
       width: 50%;
       height: 50%;
@@ -545,14 +554,15 @@ a.icon-down:hover {
         margin-right: auto;
         padding-top: 1.5%; }
       #work .content_wrap .content_row2_col2_title .content_description {
-        color: #1EB79D;
-        font-size: 1.5em;
-        display: block;
-        width: 77%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        line-height: 1.3em; }
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(29, 106, 154, 0.72);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0; }
   #work .content_hover_basic:hover, #work .content_sf_hover_basic:hover, #work .content_row1_col1_title:hover, #work .content_row1_col2_title:hover, #work .content_other_hover_basic:hover, #work .content_row2_col1_title:hover, #work .content_row2_col2_title:hover {
     display: block;
     -webkit-filter: blur(1px);
@@ -566,6 +576,13 @@ a.icon-down:hover {
     visibility: hidden; }
   #work .content_other_hover_basic .content_image, #work .content_row2_col1_title:hover .content_image, #work .content_row2_col2_title:hover .content_image {
     visibility: hidden; }
+  #work .content_row1_col1_title:hover {
+    position: relative; }
+    #work .content_row1_col1_title:hover .content_r1c1_overlay {
+      opacity: 1;
+      position: absolute;
+      top: 5%;
+      text: center; }
 
 /* Projects
 *********************************************************************************************/

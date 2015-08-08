@@ -56,7 +56,7 @@ $(document).ready(function() {
 
     //smooth scrolling from https://css-tricks.com/snippets/jquery/smooth-scrolling/
     $(function() {
-      $('a[href*=#]:not([href=#]):not(#ferromenu-controller-0)').click(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');

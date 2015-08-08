@@ -264,11 +264,11 @@ li .desktop {
 *********************************************************************************************/
 /* Top Icons
 *********************************************************************************************/
-a.icon-github, a.icon-linkedin {
+a.icon-githb, a.icon-lkedin {
   color: #F7B2AD !important; }
 a.icon-down {
   color: #F7B2AD; }
-a.icon-github:hover, a.icon-linkedin:hover {
+a.icon-githb:hover, a.icon-lkedin:hover {
   color: #B4EBCA !important; }
 a.icon-down:hover {
   color: #B4EBCA; }
@@ -1160,7 +1160,7 @@ a.icon-down:hover {
     font-size: 30px;
     bottom: 20%;
     margin-left: -40px; }
-  #top .icon-github {
+  #top .icon-githb {
     padding-right: 10px; }
   #top .icon-down {
     font-size: 30px; } }

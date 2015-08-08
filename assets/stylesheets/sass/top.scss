@@ -59,13 +59,13 @@
 *********************************************************************************************/
 
 a {
-  &.icon-github, &.icon-linkedin {
+  &.icon-githb, &.icon-lkedin {
     color: $home_icons_color !important;
   }
   &.icon-down {
     color: $home_icons_color;
   }
-  &.icon-github:hover, &.icon-linkedin:hover {
+  &.icon-githb:hover, &.icon-lkedin:hover {
     color: $home_icons_hover_color !important;
   }
   &.icon-down:hover {

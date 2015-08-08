@@ -871,9 +871,12 @@ a.icon-down:hover {
     font-size: 3em; } }
 /* Rsp - Activities & Projects & Work Content
 *********************************************************************************************/
-@media (max-width: 1660px) {
+@media (max-width: 1680px) {
   .gen_summary_name, #work .content_wrap .content_row1 .content_row1_col1_title .content_text .summary_name, #work .content_wrap .content_row1 .content_row1_col2_title .content_text .summary_name, #work .content_wrap .content_row2 .content_row2_col1_title .content_text .summary_name, #work .content_wrap .content_row2 .content_row2_col2_title .content_text .summary_name {
-    font-size: 2em; } }
+    font-size: 2em; }
+
+  .content_overlay, #work .content_wrap .content_row1 .content_row1_col1_title .content_r1c1_overlay, #work .content_wrap .content_row1 .content_row1_col2_title .content_r1c2_overlay, #work .content_wrap .content_row2 .content_row2_col1_title .content_r2c1_overlay, #work .content_wrap .content_row2 .content_row2_col2_title .content_r2c2_overlay, #work .content_wrap .content_row1 .content_row1_col1_title .content_r1c1_overlay, #work .content_wrap .content_row1 .content_row1_col2_title .content_r1c2_overlay, #work .content_wrap .content_row2 .content_row2_col1_title .content_r2c1_overlay, #work .content_wrap .content_row2 .content_row2_col2_title .content_r2c2_overlay {
+    font-size: 1.6em; } }
 @media (max-width: 1182px) {
   .gen_summary_name, #work .content_wrap .content_row1 .content_row1_col1_title .content_text .summary_name, #work .content_wrap .content_row1 .content_row1_col2_title .content_text .summary_name, #work .content_wrap .content_row2 .content_row2_col1_title .content_text .summary_name, #work .content_wrap .content_row2 .content_row2_col2_title .content_text .summary_name {
     font-size: 1.9em; } }

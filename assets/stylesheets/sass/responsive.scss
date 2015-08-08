@@ -220,9 +220,12 @@
 /* Rsp - Activities & Projects & Work Content
 *********************************************************************************************/
 
-@media (max-width: 1660px) {
+@media (max-width: 1680px) {
   .gen_summary_name {
     font-size: 2em;
+  }
+  .content_overlay, #work .content_wrap .content_row1 .content_row1_col1_title .content_r1c1_overlay, #work .content_wrap .content_row1 .content_row1_col2_title .content_r1c2_overlay, #work .content_wrap .content_row2 .content_row2_col1_title .content_r2c1_overlay, #work .content_wrap .content_row2 .content_row2_col2_title .content_r2c2_overlay{
+    font-size:1.6em;
   }
 }
 
@@ -269,8 +272,6 @@
     font-size: 1.2em;
   }
 }
-
-
 
 @media (max-width: 525px){
   .gen_content_description{

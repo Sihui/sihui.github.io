@@ -65,7 +65,7 @@ var info = {
         FriendMate:{
           At:'Chime Hack 2',
           Time:'July 2015',
-          Team: ['Sihui Huang', 'Siyuan Ma', 'Ziliang Zhu', 'Zhifan Li', 'Paulina Zeng'],
+          Team: ['Paulina Zeng', 'Sihui Huang', 'Siyuan Ma', 'Zhifan Li', 'Ziliang Zhu'],
           Badge:'The prettiest Android app I ever made! ;)',
           Tech: ['Android', 'Spring'],
           Webpage:['http://devpost.com/software/onmyway', 'https://github.com/Sihui/ChimeHack2-RapePrevention'],

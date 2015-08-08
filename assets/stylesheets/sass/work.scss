@@ -19,7 +19,6 @@
     text-align: center;
   }
   .title_wrap {
-    //background-color: $section_header_bg_color;
     width: 100%;
     padding-bottom: 30px;
     max-height: 150px !important;
@@ -29,9 +28,6 @@
     margin-right: 30px;
   }
   .content_wrap {
-    /*border-top: $section_header_bg_color;
-    border-top-width: 20px;
-    border-top-style: solid;*/
     padding: 2%;
     .content_row1{
       @extend .content_row;

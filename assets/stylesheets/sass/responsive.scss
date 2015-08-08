@@ -23,6 +23,11 @@
   #header {
     width: 0;
   }
+  .top #header ul li {
+    &.current a::before, a:hover::before {
+      visibility:hidden;
+    }
+  }
 }
 
 /* Rsp - Activities & Projects & Work Float
@@ -551,6 +556,7 @@
     }
     p {
       font-size: 1.5em;
+      line-height: 76px;
     }
   }
 }

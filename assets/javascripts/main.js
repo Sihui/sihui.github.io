@@ -6,32 +6,6 @@ $(window).load(function() {
     $("section").delay(2000).css('opacity', '1');
 });
 
-/* Vertical Centering
-*********************************************************************************************/
-
-/*$('.vertical_centered').each(function(){
-    $container = $(this);
-    $section = $container.parent();
-    var margin_top = ($section.height() - $container.height())/2;
-    $container.css('margin-top',margin_top);
-});*/
-
-/* Top Bounce Animation
-*********************************************************************************************/
-/*setInterval(function() {
-  $('.top_greetings').toggleClass("animated bounce");
-}, 1500);*/
-
-/*$("#top_greetings").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#greetings").offset().top
-    }, 500);
-});*/
-
-/* Work Show Preview
-*********************************************************************************************/
-
-
 $(document).ready(function() {
   if ($(window).width() >= 1280){
     $(function() {
@@ -82,7 +56,7 @@ $(document).ready(function() {
 
     //smooth scrolling from https://css-tricks.com/snippets/jquery/smooth-scrolling/
     $(function() {
-      $('a[href*=#]:not([href=#])').click(function() {
+      $('a[href*=#]:not([href=#]):not(#ferromenu-controller-0)').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');

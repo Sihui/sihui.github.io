@@ -1,4 +1,4 @@
-@import 'variables', 'basics';
+@import 'variables';
 
 
 /* Header
@@ -53,7 +53,6 @@
       float: left;
       position: relative;
       font-family: 'Lora', serif;
-      /*font-weight: 700;*/
       font-size: 2.5em;
       transition-duration: 0.25s;
       color: $menu_color;

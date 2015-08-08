@@ -1,11 +1,9 @@
 /* Projects
 *********************************************************************************************/
-@import 'variables', 'basics';
+@import 'variables';
 
 #projects {
   min-height: 100vh;
-  //background-color:$project_bg_color;
-  //background-image: -webkit-linear-gradient(135deg, #11bb99, #1EB79D);
   padding-bottom: 20px;
   .icon-projects {
     margin-right: 30px;

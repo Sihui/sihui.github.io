@@ -1,6 +1,6 @@
 /* Top
 *********************************************************************************************/
-@import 'variables', 'basics';
+@import 'variables';
 
 #top {
   width: 100%;
@@ -18,10 +18,8 @@
   }
   &::before {
     background-size: cover;
-    //background-color:$home_bg_color;
   }
   &::after {
-    /*background-color: rgba(56, 47, 40, 0.1);*/
   }
   .top {
     text-align: center;
@@ -32,23 +30,10 @@
   h1 {
     font-family: 'Lora', serif;
     font-weight: bold;
-    //border-bottom: 2px dashed $home_middle_line_color;
     font-size: 10em;
     line-height: 100px;
     color: $home_words_color;
-    //padding-bottom: 18px;
     margin-bottom: 27px;
-    /*&::after {
-      background-color: $home_middle_line_color;
-      border-radius: 50%;
-      position: absolute;
-      width: 30px;
-      height: 30px;
-      bottom: 41px;
-      left: 50%;
-      margin-left: -16px;
-      content: '';
-    }*/
   }
   p {
     font-family: 'Lora', serif;

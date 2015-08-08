@@ -130,7 +130,7 @@ var info = {
       },
       Sleeping:'{No Explanation Needed}',
       HangOutWithFriends:'Grateful for AWESOME friends XD',
-      Sports:['SkyDiving','Flight','Swimming','Bouldering','Tennis','Ping Pong'],
+      Sports:['SkyDiving','Flight','Skiing','Swimming','Bouldering','Tennis','Ping Pong'],
     }
   }
 }

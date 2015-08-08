@@ -131,5 +131,8 @@
       opacity:1;
     }
   }
+  .content_r1c1_description, .content_r1c2_description, .content_r2c1_description, .content_r2c2_description{
+    @extend .gen_content_description;
+  }
 }
 

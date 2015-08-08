@@ -236,6 +236,13 @@
     font-size:1.5em;
   }
 }
+
+@media (max-width: 930px) {
+  .gen_summary_name {
+    font-size: 1.7em;
+  }
+}
+
 @media (max-width: 880px){
   .gen_content_title, #work .content_wrap .content_row1 .content_row1_col1_title, #work .content_wrap .content_row1 .content_row1_col2_title, #work .content_wrap .content_row2 .content_row2_col1_title, #work .content_wrap .content_row2 .content_row2_col2_title{
     width: 100%;
@@ -248,12 +255,76 @@
   }
 }
 
-@media (max-width: 930px) {
+@media (max-width: 700px){
   .gen_summary_name {
-    font-size: 1.7em;
+      font-size: 1.6em;
   }
 }
 
+@media (max-width: 435px){
+  .gen_summary_name{
+    font-size: 1.2em;
+  }
+  .gen_summary_time {
+    font-size: 1.2em;
+  }
+}
+
+
+
+@media (max-width: 525px){
+  .gen_content_description{
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 515px){
+  .gen_content_description{
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 445px){
+
+  .content_row1 .content_row1_col1_title:hover {
+     .content_r1c1_overlay {
+      visibility:hidden;
+    }
+    .content_text{
+      visibility:visible;
+    }
+  }
+  .content_row1 .content_row1_col2_title:hover{
+    .content_r1c2_overlay {
+      visibility:hidden;
+    }
+    .content_text{
+      visibility:visible;
+    }
+  }
+  .content_row2 .content_row2_col1_title:hover{
+    .content_r2c1_overlay {
+      visibility:hidden;
+    }
+    .content_text{
+      visibility:visible;
+    }
+  }
+  .content_row2 .content_row2_col2_title:hover{
+    .content_r2c2_overlay {
+      visibility:hidden;
+    }
+  }
+  .content_other_hover_basic .content_image, #work .content_row2 .content_row2_col1_title:hover .content_image, #work .content_row2 .content_row2_col2_title:hover .content_image {
+    visibility: visible;
+  }
+  .gen_content_image, #work .content_wrap .content_row1 .content_row1_col1_title .content_sf_image, #work .content_wrap .content_row1 .content_row1_col2_title .content_sf_image, #work .content_wrap .content_row2 .content_row2_col1_title .content_image, #work .content_wrap .content_row2 .content_row2_col2_title .content_image{
+    visibility: visible;
+  }
+  .content_hover_basic:hover .content_text, .content_sf_hover_basic:hover .content_text, #work .content_row1 .content_row1_col1_title:hover .content_text, #work .content_row1 .content_row1_col2_title:hover .content_text, .content_other_hover_basic:hover .content_text, #work .content_row2 .content_row2_col1_title:hover .content_text, #work .content_row2 .content_row2_col2_title:hover .content_text {
+      visibility: visible;
+  }
+}
 @media (max-width: 985px) {
   #work {
     .content_row1_col1_title .summary_time, .content_row1_col2_title .summary_time {

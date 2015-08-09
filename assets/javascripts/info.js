@@ -66,7 +66,7 @@ var info = {
           At:'Chime Hack 2',
           Time:'July 2015',
           Team: ['Paulina Zeng', 'Sihui Huang', 'Siyuan Ma', 'Zhifan Li', 'Ziliang Zhu'],
-          Badge:'The prettiest Android app I ever made! ;)',
+          Badge:'The prettiest Android app I have ever made! ;)',
           Tech: ['Android', 'Spring'],
           Webpage:['http://devpost.com/software/onmyway', 'https://github.com/Sihui/ChimeHack2-RapePrevention'],
           About:'An android app that promotes party safety by actively checking up on users at parties and reaching out to users’ friends when users are drunk',
@@ -130,7 +130,7 @@ var info = {
       },
       Sleeping:'{No Explanation Needed}',
       HangOutWithFriends:'Grateful for AWESOME friends XD',
-      Sports:['SkyDiving','Flight','Skiing','Swimming','Bouldering','Tennis','Ping Pong'],
+      Sports:['SkyDiving','Flying','Skiing','Swimming','Bouldering','Tennis','Ping Pong'],
     }
   }
 }
